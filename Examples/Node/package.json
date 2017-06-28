@@ -1,0 +1,16 @@
+{
+  "name": "domestica-example",
+  "version": "1.0.0",
+  "description": "Demonstration of domestica, a UDP-layer discoverability tool for Swift and Node.js",
+  "main": "listen.js",
+  "scripts": {
+    "send": "node send.js",
+    "listen": "node listen.js"
+  },
+  "author": "Lacy Rhoades",
+  "license": "MIT",
+  "repository": "https://github.com/lacyrhoades/domestica",
+  "dependencies": {
+    "domestica": "file:../../Node"
+  }
+}

@@ -2,12 +2,12 @@ use_frameworks!
 platform :ios, '10.0'
 swift_version = '3.0'
 
-target 'LighthouseSender' do
-pod 'Lighthouse', :path => '../../'
+target 'DomesticaSender' do
+pod 'Domestica', :path => '../../'
 end
 
-target 'LighthouseReceiver' do
-pod 'Lighthouse', :path => '../../'
+target 'DomesticaReceiver' do
+pod 'Domestica', :path => '../../'
 end
 
 post_install do |installer|

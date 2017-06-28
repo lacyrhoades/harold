@@ -7,124 +7,140 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1F256F0407CB3526F650042A88B3314B /* CocoaAsyncSocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91BA6F6CCD385509DC9FF3B1ACE3E309 /* CocoaAsyncSocket.framework */; };
+		08B6F8B4EBC7B1465126163AF21DF1EC /* CocoaAsyncSocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91BA6F6CCD385509DC9FF3B1ACE3E309 /* CocoaAsyncSocket.framework */; };
+		1E7C2D4075DA37418FF4DD104EDA9219 /* Domestica.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3553ACB354B78440D2CD7D6A7F3E9DF6 /* Domestica.swift */; };
 		2DAA98C8614A6DED26CE8712531AE1FC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18B811B7AE0E054C1E1A26521285653C /* Foundation.framework */; };
-		3A8A70419E96F737C47A6ABCD55BCA04 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18B811B7AE0E054C1E1A26521285653C /* Foundation.framework */; };
-		4DDC70675C5146D3CB498462D97F9065 /* Pods-LighthouseSender-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 97F1558B750730105C0AAA9946C810EB /* Pods-LighthouseSender-dummy.m */; };
-		550316F55039497A658A518B91F66CEC /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8627278A8AA6F9CEEF72378C25B6762A /* Networking.swift */; };
-		6347840DA3F8CFD6ECAB2EF625D7D62F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18B811B7AE0E054C1E1A26521285653C /* Foundation.framework */; };
-		6A5B24475562E12D2EDC8F422E54126F /* Lighthouse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13ABB980D4D7DF5313DB43A8E5AF5C66 /* Lighthouse.swift */; };
-		6B782E106527E15F20AA819DBEEFA422 /* Lighthouse-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A2CD80EF3AA1DAC13A8C67EC30FE3A8 /* Lighthouse-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		57DDB6EA848DBE50C25C899782304FDD /* Pods-DomesticaReceiver-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 406F91EE8D875B3CCFF45A39DD143A24 /* Pods-DomesticaReceiver-dummy.m */; };
+		6EC5CAE6DA768C055FE90193252364EA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18B811B7AE0E054C1E1A26521285653C /* Foundation.framework */; };
 		7E4F0161B4D135DA3A0763619A56C2F5 /* CocoaAsyncSocket-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FA669EA9DB68616A6ECA64CA78D52EAC /* CocoaAsyncSocket-dummy.m */; };
 		8480493AEC1C7AF1B5C0E0BF2F70FB44 /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F9509718CFCC3D81230AA7CF02478B7 /* GCDAsyncSocket.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		9426B8F2CDC59CEBFE933C03BF75C11D /* Pods-LighthouseSender-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A7074D9B5BB4D442275EC7E7340DE08 /* Pods-LighthouseSender-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9F1F7ED27B91A150641AA15FCED825CF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18B811B7AE0E054C1E1A26521285653C /* Foundation.framework */; };
-		A343AB898C909EF8B848DB762BF0C3F8 /* Lighthouse-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DAFA32EDC270476DE2A7ED4F485D7B19 /* Lighthouse-dummy.m */; };
+		8BD49B85C9EDA5FC34DE74298555C122 /* Domestica-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A2855C29114231A673F84B8F202BDB46 /* Domestica-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A882891E5A89CADF96C2CA79606409CA /* GCDAsyncSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = D82B81E88C7D98976B018DB4903B5D0C /* GCDAsyncSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AC7DC2A21843CD99040DCD79FF3BE91B /* GCDAsyncUdpSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 30CCCF41576100268BFA48C3EED9517C /* GCDAsyncUdpSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AEE9644DA0EFCF945438E125BA4F0724 /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 9235AEFD042C8D96AF4B4AA61E18C420 /* GCDAsyncUdpSocket.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		B01CAC2D57915547EEA5D60C420903B3 /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9D3EBFFFE735A83A8B8E3B519B52B36 /* Networking.swift */; };
+		B4841E8C7F5BBC6F4E3A2E92092D9D9A /* Pods-DomesticaSender-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F2B3CAE8CF6F7E404C014BF7AD798CCA /* Pods-DomesticaSender-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B4AFA6C7A7B6D4F9CA894DA52125F0B8 /* Pods-DomesticaSender-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C2AB37410D714F92C642369DF75F77F6 /* Pods-DomesticaSender-dummy.m */; };
 		B688B80E8B12B7F6988B29DC592DA94D /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A7E85CD06FB5B7EAC4FAD953117F2D2 /* Security.framework */; };
+		C3971279065BB787C4B007F7873F3C4B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18B811B7AE0E054C1E1A26521285653C /* Foundation.framework */; };
+		CB8A4ED28746F60C9DFBAC1652771319 /* Domestica-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C5EC559616EF9D751A1710E8F70E6AB5 /* Domestica-dummy.m */; };
+		CDEF9EEBA3C90ACACF52DDAE1AC38293 /* Pods-DomesticaReceiver-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D45303F761A6C0270DBB3A469AD9F5E /* Pods-DomesticaReceiver-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D01B2EBC1AB52980422F5A831BBCE3F4 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F18CCAEB371EC97E5B9FA432AB0D5F33 /* CFNetwork.framework */; };
-		DB546C98A2302453C2994934CFCDA632 /* Pods-LighthouseReceiver-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D65CBF30754EAA5BBEF94E55848DBFC8 /* Pods-LighthouseReceiver-dummy.m */; };
+		E136B0F8A07C38C13540F7AEB49CC003 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18B811B7AE0E054C1E1A26521285653C /* Foundation.framework */; };
 		E4230DB0D114C94B081018C1AC1E9972 /* CocoaAsyncSocket-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A8A7C0B72CB1BFEC20A42E9E5B3E1A5D /* CocoaAsyncSocket-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EA11E8BEE0963E65CA30798F1C6D7A49 /* Pods-LighthouseReceiver-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 37E9FB3AA236A1CB996DB7DBAD9B78AE /* Pods-LighthouseReceiver-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		4F66DAA458E0A965D0308E4B87FF3EDC /* PBXContainerItemProxy */ = {
+		040426D92A7FD0F883D458BA5888E456 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = AC0D2D2B4EE7C873431AB3502859CA60;
 			remoteInfo = CocoaAsyncSocket;
 		};
-		A395DEC51E5E34EEB64B43033BB46179 /* PBXContainerItemProxy */ = {
+		1961617BBF4D649562D1037DD06E2D2B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = AC0D2D2B4EE7C873431AB3502859CA60;
 			remoteInfo = CocoaAsyncSocket;
 		};
-		A81BE9F989B49C4D9ED33B3B62E6F3CE /* PBXContainerItemProxy */ = {
+		1B7072B55A178ECA4FB67BA09964C5C6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = AC0D2D2B4EE7C873431AB3502859CA60;
 			remoteInfo = CocoaAsyncSocket;
 		};
-		DFA9752E21ADDDEEE5EA351449D05128 /* PBXContainerItemProxy */ = {
+		318C291E8B5481C326D75B4235FB818C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CFB875BD2103C35E057BD49C5030A627;
-			remoteInfo = Lighthouse;
+			remoteGlobalIDString = EB32E78E32CD5FECB50F2FBF2E7C433F;
+			remoteInfo = Domestica;
 		};
-		F546C47BE1A07CD17F2A67FAC060EF50 /* PBXContainerItemProxy */ = {
+		D889077810BF69DB4BFC144993A592A1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CFB875BD2103C35E057BD49C5030A627;
-			remoteInfo = Lighthouse;
+			remoteGlobalIDString = EB32E78E32CD5FECB50F2FBF2E7C433F;
+			remoteInfo = Domestica;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		024FAD3A9561D2F4CB106D15D9557461 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		046A9AF73E9BE985758A2E676AE17B8A /* Pods-LighthouseSender.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LighthouseSender.release.xcconfig"; sourceTree = "<group>"; };
-		13ABB980D4D7DF5313DB43A8E5AF5C66 /* Lighthouse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Lighthouse.swift; sourceTree = "<group>"; };
-		17A64C4F200EC8A16A81E2936D8487C5 /* Pods-LighthouseReceiver-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LighthouseReceiver-frameworks.sh"; sourceTree = "<group>"; };
-		1846882DB35E29502965F5348C6C6BA4 /* Lighthouse.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Lighthouse.xcconfig; sourceTree = "<group>"; };
+		02E007A8E6D0EED921954C405B28F515 /* Pods-DomesticaSender.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DomesticaSender.debug.xcconfig"; sourceTree = "<group>"; };
+		05AA34EE58B82B9A0319110620F1408F /* Domestica-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Domestica-prefix.pch"; sourceTree = "<group>"; };
+		103E8E6BE0E667003FAE451B3718B5DF /* Pods-DomesticaReceiver-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DomesticaReceiver-resources.sh"; sourceTree = "<group>"; };
 		18B811B7AE0E054C1E1A26521285653C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		2C0CC406E5FEA11FE9C422E663126D17 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C3A1045C129A42B52AD04C89AC1F138 /* Pods-DomesticaSender.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-DomesticaSender.modulemap"; sourceTree = "<group>"; };
 		30CCCF41576100268BFA48C3EED9517C /* GCDAsyncUdpSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDAsyncUdpSocket.h; path = Source/GCD/GCDAsyncUdpSocket.h; sourceTree = "<group>"; };
-		37E9FB3AA236A1CB996DB7DBAD9B78AE /* Pods-LighthouseReceiver-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LighthouseReceiver-umbrella.h"; sourceTree = "<group>"; };
-		3F18A279DC2F4D2044344C66628F87CC /* Pods-LighthouseReceiver-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LighthouseReceiver-acknowledgements.markdown"; sourceTree = "<group>"; };
-		47EDA05AB251A257BC516AE87E05DCFC /* Pods-LighthouseSender-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LighthouseSender-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3254FB1C0F96D5106C1BE5BCECB28466 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3553ACB354B78440D2CD7D6A7F3E9DF6 /* Domestica.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Domestica.swift; sourceTree = "<group>"; };
+		3D5FB5D65FF8D85E4B68543078E1194B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		406F91EE8D875B3CCFF45A39DD143A24 /* Pods-DomesticaReceiver-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DomesticaReceiver-dummy.m"; sourceTree = "<group>"; };
+		506BEBB6E4BA568FD0FE6F215B8A5383 /* Domestica.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Domestica.modulemap; sourceTree = "<group>"; };
 		56387DA55BBF9D5729BB7A1C311C2894 /* CocoaAsyncSocket.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = CocoaAsyncSocket.modulemap; sourceTree = "<group>"; };
-		5A2CD80EF3AA1DAC13A8C67EC30FE3A8 /* Lighthouse-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Lighthouse-umbrella.h"; sourceTree = "<group>"; };
-		5A7074D9B5BB4D442275EC7E7340DE08 /* Pods-LighthouseSender-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LighthouseSender-umbrella.h"; sourceTree = "<group>"; };
 		5A7E85CD06FB5B7EAC4FAD953117F2D2 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
 		601E37EDFF15F9E763332F8ED114AF13 /* CocoaAsyncSocket-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CocoaAsyncSocket-prefix.pch"; sourceTree = "<group>"; };
-		68BE5F8A51845EE70247FDDD6C129A59 /* CocoaAsyncSocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CocoaAsyncSocket.framework; path = CocoaAsyncSocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6A2320D661AD7F6A1661612FDF237D6E /* Lighthouse.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Lighthouse.framework; path = Lighthouse.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6C245D90FC4F2D659C497B9D950E6EE2 /* Pods-LighthouseReceiver.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LighthouseReceiver.release.xcconfig"; sourceTree = "<group>"; };
-		74BF97CFA1DB81DF01919F3F97B7F460 /* Pods-LighthouseSender.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-LighthouseSender.modulemap"; sourceTree = "<group>"; };
-		8362F3CFF7CF903A3D489AF97032DFCC /* Pods_LighthouseSender.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LighthouseSender.framework; path = "Pods-LighthouseSender.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8627278A8AA6F9CEEF72378C25B6762A /* Networking.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
-		87B75E3A86E09D617FAD40789EAAEE6F /* Pods-LighthouseReceiver-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LighthouseReceiver-acknowledgements.plist"; sourceTree = "<group>"; };
+		68029BF13BFEB910F3EE7D43BAF3ED37 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6BC75CB7B1AC241BE6D6EE1167BAFEC6 /* Pods-DomesticaSender.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DomesticaSender.release.xcconfig"; sourceTree = "<group>"; };
+		717B71176891D4DE39B690B2033E1562 /* Pods-DomesticaReceiver-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DomesticaReceiver-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7A729E5BD4E5209BEA96EF5D411B2002 /* Pods-DomesticaReceiver-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DomesticaReceiver-acknowledgements.plist"; sourceTree = "<group>"; };
+		7AD28A3E69FFAE868B5A98CFFC636E69 /* Pods-DomesticaReceiver.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DomesticaReceiver.release.xcconfig"; sourceTree = "<group>"; };
+		7B74AEBDB7B8ECC50DA7F82EECE838B7 /* Pods_DomesticaSender.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DomesticaSender.framework; path = "Pods-DomesticaSender.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		826C1FC0954401DD48BFB552502AE621 /* Pods-DomesticaSender-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DomesticaSender-frameworks.sh"; sourceTree = "<group>"; };
+		8372BFD514822C038F05E2920054FA0C /* Pods-DomesticaSender-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DomesticaSender-acknowledgements.plist"; sourceTree = "<group>"; };
+		83C687235751E3F30EA06FD3E19A6E39 /* Pods-DomesticaSender-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DomesticaSender-acknowledgements.markdown"; sourceTree = "<group>"; };
+		89836C2A53EEDCF4E23F059E2A8036AA /* Pods-DomesticaReceiver-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DomesticaReceiver-frameworks.sh"; sourceTree = "<group>"; };
 		8F9509718CFCC3D81230AA7CF02478B7 /* GCDAsyncSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDAsyncSocket.m; path = Source/GCD/GCDAsyncSocket.m; sourceTree = "<group>"; };
 		91BA6F6CCD385509DC9FF3B1ACE3E309 /* CocoaAsyncSocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CocoaAsyncSocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9235AEFD042C8D96AF4B4AA61E18C420 /* GCDAsyncUdpSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDAsyncUdpSocket.m; path = Source/GCD/GCDAsyncUdpSocket.m; sourceTree = "<group>"; };
+		92F582BF6029986E8F59D4F261942624 /* CocoaAsyncSocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CocoaAsyncSocket.framework; path = CocoaAsyncSocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		97F1558B750730105C0AAA9946C810EB /* Pods-LighthouseSender-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LighthouseSender-dummy.m"; sourceTree = "<group>"; };
-		A244FC7818BAD7BB498A06EAD203C0ED /* Pods-LighthouseSender-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LighthouseSender-resources.sh"; sourceTree = "<group>"; };
+		9D45303F761A6C0270DBB3A469AD9F5E /* Pods-DomesticaReceiver-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DomesticaReceiver-umbrella.h"; sourceTree = "<group>"; };
+		A2855C29114231A673F84B8F202BDB46 /* Domestica-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Domestica-umbrella.h"; sourceTree = "<group>"; };
 		A8A7C0B72CB1BFEC20A42E9E5B3E1A5D /* CocoaAsyncSocket-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CocoaAsyncSocket-umbrella.h"; sourceTree = "<group>"; };
 		AEE3A3E21C4B978FE0BCEB9613DABBF6 /* CocoaAsyncSocket.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CocoaAsyncSocket.xcconfig; sourceTree = "<group>"; };
-		B4A04AD5038AC492AFADD7E6AC24633D /* Pods-LighthouseReceiver.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-LighthouseReceiver.modulemap"; sourceTree = "<group>"; };
-		BF57A332FC687A5651088B392DFEF075 /* Pods-LighthouseSender-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LighthouseSender-acknowledgements.plist"; sourceTree = "<group>"; };
-		C8643D9E01F6D57D7D17B8848B545469 /* Lighthouse-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Lighthouse-prefix.pch"; sourceTree = "<group>"; };
-		C92761A8DBD64421F0B9C615E76C3F7C /* Pods-LighthouseReceiver.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LighthouseReceiver.debug.xcconfig"; sourceTree = "<group>"; };
-		CE8CA4932638DAC44CBDA6077925FA8F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D40FC9AF3013EB22A02FE875F5C91B98 /* Pods-LighthouseSender.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LighthouseSender.debug.xcconfig"; sourceTree = "<group>"; };
-		D65CBF30754EAA5BBEF94E55848DBFC8 /* Pods-LighthouseReceiver-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LighthouseReceiver-dummy.m"; sourceTree = "<group>"; };
+		B93B1F3A3237B6CBB332C0E1860AFDE6 /* Pods-DomesticaReceiver.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DomesticaReceiver.debug.xcconfig"; sourceTree = "<group>"; };
+		C2AB37410D714F92C642369DF75F77F6 /* Pods-DomesticaSender-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DomesticaSender-dummy.m"; sourceTree = "<group>"; };
+		C3AF460FB64A889B254C4A5282CC827C /* Pods-DomesticaSender-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DomesticaSender-resources.sh"; sourceTree = "<group>"; };
+		C5EC559616EF9D751A1710E8F70E6AB5 /* Domestica-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Domestica-dummy.m"; sourceTree = "<group>"; };
+		C869D775D06DA83FAEA29D778BDC93F4 /* Domestica.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Domestica.framework; path = Domestica.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9D3EBFFFE735A83A8B8E3B519B52B36 /* Networking.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
 		D82B81E88C7D98976B018DB4903B5D0C /* GCDAsyncSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDAsyncSocket.h; path = Source/GCD/GCDAsyncSocket.h; sourceTree = "<group>"; };
-		DA21136EC1CC4F108A92728D224DF214 /* Pods_LighthouseReceiver.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LighthouseReceiver.framework; path = "Pods-LighthouseReceiver.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DA9B4AEB5667EE29B81D18BFCC703144 /* Lighthouse.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Lighthouse.modulemap; sourceTree = "<group>"; };
-		DAFA32EDC270476DE2A7ED4F485D7B19 /* Lighthouse-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Lighthouse-dummy.m"; sourceTree = "<group>"; };
+		D832AF4354F1124EC74EEEB38F8C5FC7 /* Pods-DomesticaReceiver.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-DomesticaReceiver.modulemap"; sourceTree = "<group>"; };
+		E75483551F0FD981F423DC292ADDF733 /* Pods_DomesticaReceiver.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DomesticaReceiver.framework; path = "Pods-DomesticaReceiver.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F18CCAEB371EC97E5B9FA432AB0D5F33 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
-		F3D4AACD1A0DEE7282C9AC1BB9519D09 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F5990AD66C10A2D3DABD3C5B3D91B8A9 /* Pods-LighthouseSender-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LighthouseSender-frameworks.sh"; sourceTree = "<group>"; };
-		F703E4F16763A182B8DF81A86991CB62 /* Pods-LighthouseReceiver-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LighthouseReceiver-resources.sh"; sourceTree = "<group>"; };
+		F2B3CAE8CF6F7E404C014BF7AD798CCA /* Pods-DomesticaSender-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DomesticaSender-umbrella.h"; sourceTree = "<group>"; };
+		F76F353D97E26DDC7EB7F92E692F32D6 /* Domestica.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Domestica.xcconfig; sourceTree = "<group>"; };
 		FA669EA9DB68616A6ECA64CA78D52EAC /* CocoaAsyncSocket-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CocoaAsyncSocket-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		CCBEBC6F0EAE6B362A3FD6272B2EA558 /* Frameworks */ = {
+		2C710FCF4C7AB1EB231B02380205D19E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F256F0407CB3526F650042A88B3314B /* CocoaAsyncSocket.framework in Frameworks */,
-				9F1F7ED27B91A150641AA15FCED825CF /* Foundation.framework in Frameworks */,
+				08B6F8B4EBC7B1465126163AF21DF1EC /* CocoaAsyncSocket.framework in Frameworks */,
+				6EC5CAE6DA768C055FE90193252364EA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E766925E21CCDE6A574D5132D9E738D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3971279065BB787C4B007F7873F3C4B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BE69A9A6317245175DB47751FFEE681 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E136B0F8A07C38C13540F7AEB49CC003 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,33 +154,60 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FDB2F65F6B04A5A79559BC21CDB9E430 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3A8A70419E96F737C47A6ABCD55BCA04 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FFDF6424950B4CC34AABA8FFED48D1DA /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6347840DA3F8CFD6ECAB2EF625D7D62F /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		087C158E67BA313EAAC25901601A0D20 /* Classes */ = {
+		0086BD39042D8E84CD61C3EADB8B9E69 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				13ABB980D4D7DF5313DB43A8E5AF5C66 /* Lighthouse.swift */,
-				8627278A8AA6F9CEEF72378C25B6762A /* Networking.swift */,
+				9D8CC1DBEBBCA512A53988DDC9098A7E /* Pods-DomesticaReceiver */,
+				EC5C76B17B081D66F807B173AE662F2E /* Pods-DomesticaSender */,
 			);
-			name = Classes;
-			path = Classes;
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		074976625E91A7276453A3DD160C40CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				92F582BF6029986E8F59D4F261942624 /* CocoaAsyncSocket.framework */,
+				C869D775D06DA83FAEA29D778BDC93F4 /* Domestica.framework */,
+				E75483551F0FD981F423DC292ADDF733 /* Pods_DomesticaReceiver.framework */,
+				7B74AEBDB7B8ECC50DA7F82EECE838B7 /* Pods_DomesticaSender.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		27C7A38B17D37CE26A48C01D9A35F1E7 /* Swift */ = {
+			isa = PBXGroup;
+			children = (
+				6DCBD22DDC424416232DC7440956A5CC /* Classes */,
+			);
+			name = Swift;
+			path = Swift;
+			sourceTree = "<group>";
+		};
+		2985EC5B9DAAAE8AFEC82BF644120B06 /* Domestica */ = {
+			isa = PBXGroup;
+			children = (
+				2A855215878EC1BD7FD1201EB2224569 /* Support Files */,
+				27C7A38B17D37CE26A48C01D9A35F1E7 /* Swift */,
+			);
+			name = Domestica;
+			path = ../../..;
+			sourceTree = "<group>";
+		};
+		2A855215878EC1BD7FD1201EB2224569 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				506BEBB6E4BA568FD0FE6F215B8A5383 /* Domestica.modulemap */,
+				F76F353D97E26DDC7EB7F92E692F32D6 /* Domestica.xcconfig */,
+				C5EC559616EF9D751A1710E8F70E6AB5 /* Domestica-dummy.m */,
+				05AA34EE58B82B9A0319110620F1408F /* Domestica-prefix.pch */,
+				A2855C29114231A673F84B8F202BDB46 /* Domestica-umbrella.h */,
+				3D5FB5D65FF8D85E4B68543078E1194B /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Examples/Swift/Pods/Target Support Files/Domestica";
 			sourceTree = "<group>";
 		};
 		2B933D4B764323E14C9F306E59BA9E9E /* iOS */ = {
@@ -175,28 +218,6 @@
 				5A7E85CD06FB5B7EAC4FAD953117F2D2 /* Security.framework */,
 			);
 			name = iOS;
-			sourceTree = "<group>";
-		};
-		3B094B635C945058790C291E9728CBF9 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				F3D4AACD1A0DEE7282C9AC1BB9519D09 /* Info.plist */,
-				DA9B4AEB5667EE29B81D18BFCC703144 /* Lighthouse.modulemap */,
-				1846882DB35E29502965F5348C6C6BA4 /* Lighthouse.xcconfig */,
-				DAFA32EDC270476DE2A7ED4F485D7B19 /* Lighthouse-dummy.m */,
-				C8643D9E01F6D57D7D17B8848B545469 /* Lighthouse-prefix.pch */,
-				5A2CD80EF3AA1DAC13A8C67EC30FE3A8 /* Lighthouse-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Examples/Swift/Pods/Target Support Files/Lighthouse";
-			sourceTree = "<group>";
-		};
-		4BBC39A5C0575D97ACCC0B7B9CF2F30A /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				DE6A82756F33A67B091815EFE875ED6F /* Lighthouse */,
-			);
-			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		57B648335473190C3B0747F8DB761F76 /* Support Files */ = {
@@ -213,61 +234,34 @@
 			path = "../Target Support Files/CocoaAsyncSocket";
 			sourceTree = "<group>";
 		};
-		5EA0136FAB7B5AE6458C19F4A8A600AB /* Pods-LighthouseReceiver */ = {
+		594EB0D46FDC37CDEBF5325736E9FFF3 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				2C0CC406E5FEA11FE9C422E663126D17 /* Info.plist */,
-				B4A04AD5038AC492AFADD7E6AC24633D /* Pods-LighthouseReceiver.modulemap */,
-				3F18A279DC2F4D2044344C66628F87CC /* Pods-LighthouseReceiver-acknowledgements.markdown */,
-				87B75E3A86E09D617FAD40789EAAEE6F /* Pods-LighthouseReceiver-acknowledgements.plist */,
-				D65CBF30754EAA5BBEF94E55848DBFC8 /* Pods-LighthouseReceiver-dummy.m */,
-				17A64C4F200EC8A16A81E2936D8487C5 /* Pods-LighthouseReceiver-frameworks.sh */,
-				F703E4F16763A182B8DF81A86991CB62 /* Pods-LighthouseReceiver-resources.sh */,
-				37E9FB3AA236A1CB996DB7DBAD9B78AE /* Pods-LighthouseReceiver-umbrella.h */,
-				C92761A8DBD64421F0B9C615E76C3F7C /* Pods-LighthouseReceiver.debug.xcconfig */,
-				6C245D90FC4F2D659C497B9D950E6EE2 /* Pods-LighthouseReceiver.release.xcconfig */,
+				2985EC5B9DAAAE8AFEC82BF644120B06 /* Domestica */,
 			);
-			name = "Pods-LighthouseReceiver";
-			path = "Target Support Files/Pods-LighthouseReceiver";
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		6DCBD22DDC424416232DC7440956A5CC /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				3553ACB354B78440D2CD7D6A7F3E9DF6 /* Domestica.swift */,
+				C9D3EBFFFE735A83A8B8E3B519B52B36 /* Networking.swift */,
+			);
+			name = Classes;
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				4BBC39A5C0575D97ACCC0B7B9CF2F30A /* Development Pods */,
+				594EB0D46FDC37CDEBF5325736E9FFF3 /* Development Pods */,
 				E57D8BB42B7367E2EA1AB4BAF61E5D44 /* Frameworks */,
 				991819176034B11A99ECC53C250D06AD /* Pods */,
-				F7E9F4F466BFF84B4EF5A891E687EF76 /* Products */,
-				9756B1D16426C1BA126296BD3CD5F5DD /* Targets Support Files */,
+				074976625E91A7276453A3DD160C40CE /* Products */,
+				0086BD39042D8E84CD61C3EADB8B9E69 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		86F9E6E67670807A89DC5D39FF6AE962 /* Pods-LighthouseSender */ = {
-			isa = PBXGroup;
-			children = (
-				CE8CA4932638DAC44CBDA6077925FA8F /* Info.plist */,
-				74BF97CFA1DB81DF01919F3F97B7F460 /* Pods-LighthouseSender.modulemap */,
-				47EDA05AB251A257BC516AE87E05DCFC /* Pods-LighthouseSender-acknowledgements.markdown */,
-				BF57A332FC687A5651088B392DFEF075 /* Pods-LighthouseSender-acknowledgements.plist */,
-				97F1558B750730105C0AAA9946C810EB /* Pods-LighthouseSender-dummy.m */,
-				F5990AD66C10A2D3DABD3C5B3D91B8A9 /* Pods-LighthouseSender-frameworks.sh */,
-				A244FC7818BAD7BB498A06EAD203C0ED /* Pods-LighthouseSender-resources.sh */,
-				5A7074D9B5BB4D442275EC7E7340DE08 /* Pods-LighthouseSender-umbrella.h */,
-				D40FC9AF3013EB22A02FE875F5C91B98 /* Pods-LighthouseSender.debug.xcconfig */,
-				046A9AF73E9BE985758A2E676AE17B8A /* Pods-LighthouseSender.release.xcconfig */,
-			);
-			name = "Pods-LighthouseSender";
-			path = "Target Support Files/Pods-LighthouseSender";
-			sourceTree = "<group>";
-		};
-		9756B1D16426C1BA126296BD3CD5F5DD /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				5EA0136FAB7B5AE6458C19F4A8A600AB /* Pods-LighthouseReceiver */,
-				86F9E6E67670807A89DC5D39FF6AE962 /* Pods-LighthouseSender */,
-			);
-			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		97CDCB5A0A30A5875BD2674D78A4B922 /* CocoaAsyncSocket */ = {
@@ -283,15 +277,6 @@
 			path = CocoaAsyncSocket;
 			sourceTree = "<group>";
 		};
-		97F49DE2AB50897D966877BFDE34E85F /* Swift */ = {
-			isa = PBXGroup;
-			children = (
-				087C158E67BA313EAAC25901601A0D20 /* Classes */,
-			);
-			name = Swift;
-			path = Swift;
-			sourceTree = "<group>";
-		};
 		991819176034B11A99ECC53C250D06AD /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -300,14 +285,22 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		DE6A82756F33A67B091815EFE875ED6F /* Lighthouse */ = {
+		9D8CC1DBEBBCA512A53988DDC9098A7E /* Pods-DomesticaReceiver */ = {
 			isa = PBXGroup;
 			children = (
-				3B094B635C945058790C291E9728CBF9 /* Support Files */,
-				97F49DE2AB50897D966877BFDE34E85F /* Swift */,
+				3254FB1C0F96D5106C1BE5BCECB28466 /* Info.plist */,
+				D832AF4354F1124EC74EEEB38F8C5FC7 /* Pods-DomesticaReceiver.modulemap */,
+				717B71176891D4DE39B690B2033E1562 /* Pods-DomesticaReceiver-acknowledgements.markdown */,
+				7A729E5BD4E5209BEA96EF5D411B2002 /* Pods-DomesticaReceiver-acknowledgements.plist */,
+				406F91EE8D875B3CCFF45A39DD143A24 /* Pods-DomesticaReceiver-dummy.m */,
+				89836C2A53EEDCF4E23F059E2A8036AA /* Pods-DomesticaReceiver-frameworks.sh */,
+				103E8E6BE0E667003FAE451B3718B5DF /* Pods-DomesticaReceiver-resources.sh */,
+				9D45303F761A6C0270DBB3A469AD9F5E /* Pods-DomesticaReceiver-umbrella.h */,
+				B93B1F3A3237B6CBB332C0E1860AFDE6 /* Pods-DomesticaReceiver.debug.xcconfig */,
+				7AD28A3E69FFAE868B5A98CFFC636E69 /* Pods-DomesticaReceiver.release.xcconfig */,
 			);
-			name = Lighthouse;
-			path = ../../..;
+			name = "Pods-DomesticaReceiver";
+			path = "Target Support Files/Pods-DomesticaReceiver";
 			sourceTree = "<group>";
 		};
 		E57D8BB42B7367E2EA1AB4BAF61E5D44 /* Frameworks */ = {
@@ -319,15 +312,22 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		F7E9F4F466BFF84B4EF5A891E687EF76 /* Products */ = {
+		EC5C76B17B081D66F807B173AE662F2E /* Pods-DomesticaSender */ = {
 			isa = PBXGroup;
 			children = (
-				68BE5F8A51845EE70247FDDD6C129A59 /* CocoaAsyncSocket.framework */,
-				6A2320D661AD7F6A1661612FDF237D6E /* Lighthouse.framework */,
-				DA21136EC1CC4F108A92728D224DF214 /* Pods_LighthouseReceiver.framework */,
-				8362F3CFF7CF903A3D489AF97032DFCC /* Pods_LighthouseSender.framework */,
+				68029BF13BFEB910F3EE7D43BAF3ED37 /* Info.plist */,
+				1C3A1045C129A42B52AD04C89AC1F138 /* Pods-DomesticaSender.modulemap */,
+				83C687235751E3F30EA06FD3E19A6E39 /* Pods-DomesticaSender-acknowledgements.markdown */,
+				8372BFD514822C038F05E2920054FA0C /* Pods-DomesticaSender-acknowledgements.plist */,
+				C2AB37410D714F92C642369DF75F77F6 /* Pods-DomesticaSender-dummy.m */,
+				826C1FC0954401DD48BFB552502AE621 /* Pods-DomesticaSender-frameworks.sh */,
+				C3AF460FB64A889B254C4A5282CC827C /* Pods-DomesticaSender-resources.sh */,
+				F2B3CAE8CF6F7E404C014BF7AD798CCA /* Pods-DomesticaSender-umbrella.h */,
+				02E007A8E6D0EED921954C405B28F515 /* Pods-DomesticaSender.debug.xcconfig */,
+				6BC75CB7B1AC241BE6D6EE1167BAFEC6 /* Pods-DomesticaSender.release.xcconfig */,
 			);
-			name = Products;
+			name = "Pods-DomesticaSender";
+			path = "Target Support Files/Pods-DomesticaSender";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -343,69 +343,50 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		34C9CB939DC5C1CA09FCE25B1FDD0C1A /* Headers */ = {
+		3EDA8EEBD6FDE44248A3234ED08186F9 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA11E8BEE0963E65CA30798F1C6D7A49 /* Pods-LighthouseReceiver-umbrella.h in Headers */,
+				8BD49B85C9EDA5FC34DE74298555C122 /* Domestica-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5813B93974C3888D2953979610600DDC /* Headers */ = {
+		41D87301CB6BF56B8AA4A0CFF548DD5E /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6B782E106527E15F20AA819DBEEFA422 /* Lighthouse-umbrella.h in Headers */,
+				CDEF9EEBA3C90ACACF52DDAE1AC38293 /* Pods-DomesticaReceiver-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B83B9F512C3606F0CAC2F8CA7BE83316 /* Headers */ = {
+		7DFEAA400F694C1E90CAA1E6F0228E37 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9426B8F2CDC59CEBFE933C03BF75C11D /* Pods-LighthouseSender-umbrella.h in Headers */,
+				B4841E8C7F5BBC6F4E3A2E92092D9D9A /* Pods-DomesticaSender-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		747A112987EB0D12C035A8B9768781C2 /* Pods-LighthouseReceiver */ = {
+		547BF98C8DC5DF7483529CD54FABB698 /* Pods-DomesticaSender */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B6876AD82CC7A1A4377252854C135BC1 /* Build configuration list for PBXNativeTarget "Pods-LighthouseReceiver" */;
+			buildConfigurationList = D7198746B136AAB07D02092289BB0442 /* Build configuration list for PBXNativeTarget "Pods-DomesticaSender" */;
 			buildPhases = (
-				DC6E5D7B8C30B3DD06462545EAFB610A /* Sources */,
-				FFDF6424950B4CC34AABA8FFED48D1DA /* Frameworks */,
-				34C9CB939DC5C1CA09FCE25B1FDD0C1A /* Headers */,
+				FFD3C4B17B6E8D9A176241A54BA54602 /* Sources */,
+				2E766925E21CCDE6A574D5132D9E738D /* Frameworks */,
+				7DFEAA400F694C1E90CAA1E6F0228E37 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				8A0DE01B8102AF16FCF3B675DE555A93 /* PBXTargetDependency */,
-				D765182DFD2ECE82022852F1D0219BF0 /* PBXTargetDependency */,
+				E3584E278C09731DEF196C825FDF429F /* PBXTargetDependency */,
+				7689742830CFBEFFB06BEC98512D385B /* PBXTargetDependency */,
 			);
-			name = "Pods-LighthouseReceiver";
-			productName = "Pods-LighthouseReceiver";
-			productReference = DA21136EC1CC4F108A92728D224DF214 /* Pods_LighthouseReceiver.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		869B2FEF683F13F3AF0F1CE457E63ED0 /* Pods-LighthouseSender */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C2F7892AD376AFE3E5C9752EF17C254E /* Build configuration list for PBXNativeTarget "Pods-LighthouseSender" */;
-			buildPhases = (
-				BCF39FCAD8803E9C808CDF93C14F6FBC /* Sources */,
-				FDB2F65F6B04A5A79559BC21CDB9E430 /* Frameworks */,
-				B83B9F512C3606F0CAC2F8CA7BE83316 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				78D000AD6433C95C7BE7770942B16FC6 /* PBXTargetDependency */,
-				58980A9966727675567F01407EFD0DB7 /* PBXTargetDependency */,
-			);
-			name = "Pods-LighthouseSender";
-			productName = "Pods-LighthouseSender";
-			productReference = 8362F3CFF7CF903A3D489AF97032DFCC /* Pods_LighthouseSender.framework */;
+			name = "Pods-DomesticaSender";
+			productName = "Pods-DomesticaSender";
+			productReference = 7B74AEBDB7B8ECC50DA7F82EECE838B7 /* Pods_DomesticaSender.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		AC0D2D2B4EE7C873431AB3502859CA60 /* CocoaAsyncSocket */ = {
@@ -422,25 +403,44 @@
 			);
 			name = CocoaAsyncSocket;
 			productName = CocoaAsyncSocket;
-			productReference = 68BE5F8A51845EE70247FDDD6C129A59 /* CocoaAsyncSocket.framework */;
+			productReference = 92F582BF6029986E8F59D4F261942624 /* CocoaAsyncSocket.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		CFB875BD2103C35E057BD49C5030A627 /* Lighthouse */ = {
+		EB32E78E32CD5FECB50F2FBF2E7C433F /* Domestica */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8B5DA92BA46AE277E77EA63F63BE3D6D /* Build configuration list for PBXNativeTarget "Lighthouse" */;
+			buildConfigurationList = 2617FF4ADF22E6F165214D879FE04C2C /* Build configuration list for PBXNativeTarget "Domestica" */;
 			buildPhases = (
-				34438CF4982A390C975D24AB0AB62410 /* Sources */,
-				CCBEBC6F0EAE6B362A3FD6272B2EA558 /* Frameworks */,
-				5813B93974C3888D2953979610600DDC /* Headers */,
+				AC0F4345998DCA1C45DC0136FB6D6B72 /* Sources */,
+				2C710FCF4C7AB1EB231B02380205D19E /* Frameworks */,
+				3EDA8EEBD6FDE44248A3234ED08186F9 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				4C0B6D270BA3E981DDB513523E74CA9F /* PBXTargetDependency */,
+				AD70A8B315800BE5DBBC4FCE04C92BEC /* PBXTargetDependency */,
 			);
-			name = Lighthouse;
-			productName = Lighthouse;
-			productReference = 6A2320D661AD7F6A1661612FDF237D6E /* Lighthouse.framework */;
+			name = Domestica;
+			productName = Domestica;
+			productReference = C869D775D06DA83FAEA29D778BDC93F4 /* Domestica.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F102A6A710D8F9824536DACDB45E8A41 /* Pods-DomesticaReceiver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5723D4A32BB5A01039FB3D3F9F3AC911 /* Build configuration list for PBXNativeTarget "Pods-DomesticaReceiver" */;
+			buildPhases = (
+				8A0414BF118B9F75CB46B01B53282992 /* Sources */,
+				7BE69A9A6317245175DB47751FFEE681 /* Frameworks */,
+				41D87301CB6BF56B8AA4A0CFF548DD5E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4785CC541B41A2726374589D60774447 /* PBXTargetDependency */,
+				C2DBF8F6B4B9C431FA38B8D4D2B39980 /* PBXTargetDependency */,
+			);
+			name = "Pods-DomesticaReceiver";
+			productName = "Pods-DomesticaReceiver";
+			productReference = E75483551F0FD981F423DC292ADDF733 /* Pods_DomesticaReceiver.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -460,42 +460,34 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = F7E9F4F466BFF84B4EF5A891E687EF76 /* Products */;
+			productRefGroup = 074976625E91A7276453A3DD160C40CE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				AC0D2D2B4EE7C873431AB3502859CA60 /* CocoaAsyncSocket */,
-				CFB875BD2103C35E057BD49C5030A627 /* Lighthouse */,
-				747A112987EB0D12C035A8B9768781C2 /* Pods-LighthouseReceiver */,
-				869B2FEF683F13F3AF0F1CE457E63ED0 /* Pods-LighthouseSender */,
+				EB32E78E32CD5FECB50F2FBF2E7C433F /* Domestica */,
+				F102A6A710D8F9824536DACDB45E8A41 /* Pods-DomesticaReceiver */,
+				547BF98C8DC5DF7483529CD54FABB698 /* Pods-DomesticaSender */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		34438CF4982A390C975D24AB0AB62410 /* Sources */ = {
+		8A0414BF118B9F75CB46B01B53282992 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A343AB898C909EF8B848DB762BF0C3F8 /* Lighthouse-dummy.m in Sources */,
-				6A5B24475562E12D2EDC8F422E54126F /* Lighthouse.swift in Sources */,
-				550316F55039497A658A518B91F66CEC /* Networking.swift in Sources */,
+				57DDB6EA848DBE50C25C899782304FDD /* Pods-DomesticaReceiver-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BCF39FCAD8803E9C808CDF93C14F6FBC /* Sources */ = {
+		AC0F4345998DCA1C45DC0136FB6D6B72 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4DDC70675C5146D3CB498462D97F9065 /* Pods-LighthouseSender-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DC6E5D7B8C30B3DD06462545EAFB610A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DB546C98A2302453C2994934CFCDA632 /* Pods-LighthouseReceiver-dummy.m in Sources */,
+				CB8A4ED28746F60C9DFBAC1652771319 /* Domestica-dummy.m in Sources */,
+				1E7C2D4075DA37418FF4DD104EDA9219 /* Domestica.swift in Sources */,
+				B01CAC2D57915547EEA5D60C420903B3 /* Networking.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -509,45 +501,127 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FFD3C4B17B6E8D9A176241A54BA54602 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4AFA6C7A7B6D4F9CA894DA52125F0B8 /* Pods-DomesticaSender-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		4C0B6D270BA3E981DDB513523E74CA9F /* PBXTargetDependency */ = {
+		4785CC541B41A2726374589D60774447 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = CocoaAsyncSocket;
 			target = AC0D2D2B4EE7C873431AB3502859CA60 /* CocoaAsyncSocket */;
-			targetProxy = A395DEC51E5E34EEB64B43033BB46179 /* PBXContainerItemProxy */;
+			targetProxy = 1B7072B55A178ECA4FB67BA09964C5C6 /* PBXContainerItemProxy */;
 		};
-		58980A9966727675567F01407EFD0DB7 /* PBXTargetDependency */ = {
+		7689742830CFBEFFB06BEC98512D385B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = Lighthouse;
-			target = CFB875BD2103C35E057BD49C5030A627 /* Lighthouse */;
-			targetProxy = DFA9752E21ADDDEEE5EA351449D05128 /* PBXContainerItemProxy */;
+			name = Domestica;
+			target = EB32E78E32CD5FECB50F2FBF2E7C433F /* Domestica */;
+			targetProxy = D889077810BF69DB4BFC144993A592A1 /* PBXContainerItemProxy */;
 		};
-		78D000AD6433C95C7BE7770942B16FC6 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = CocoaAsyncSocket;
-			target = AC0D2D2B4EE7C873431AB3502859CA60 /* CocoaAsyncSocket */;
-			targetProxy = A81BE9F989B49C4D9ED33B3B62E6F3CE /* PBXContainerItemProxy */;
-		};
-		8A0DE01B8102AF16FCF3B675DE555A93 /* PBXTargetDependency */ = {
+		AD70A8B315800BE5DBBC4FCE04C92BEC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = CocoaAsyncSocket;
 			target = AC0D2D2B4EE7C873431AB3502859CA60 /* CocoaAsyncSocket */;
-			targetProxy = 4F66DAA458E0A965D0308E4B87FF3EDC /* PBXContainerItemProxy */;
+			targetProxy = 1961617BBF4D649562D1037DD06E2D2B /* PBXContainerItemProxy */;
 		};
-		D765182DFD2ECE82022852F1D0219BF0 /* PBXTargetDependency */ = {
+		C2DBF8F6B4B9C431FA38B8D4D2B39980 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = Lighthouse;
-			target = CFB875BD2103C35E057BD49C5030A627 /* Lighthouse */;
-			targetProxy = F546C47BE1A07CD17F2A67FAC060EF50 /* PBXContainerItemProxy */;
+			name = Domestica;
+			target = EB32E78E32CD5FECB50F2FBF2E7C433F /* Domestica */;
+			targetProxy = 318C291E8B5481C326D75B4235FB818C /* PBXContainerItemProxy */;
+		};
+		E3584E278C09731DEF196C825FDF429F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CocoaAsyncSocket;
+			target = AC0D2D2B4EE7C873431AB3502859CA60 /* CocoaAsyncSocket */;
+			targetProxy = 040426D92A7FD0F883D458BA5888E456 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		4D53A1F4EA17B094C66693D70DA7CDB9 /* Release */ = {
+		15AD4B139209C4D6A8EC0467BF8DEFDC /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 046A9AF73E9BE985758A2E676AE17B8A /* Pods-LighthouseSender.release.xcconfig */;
+			baseConfigurationReference = B93B1F3A3237B6CBB332C0E1860AFDE6 /* Pods-DomesticaReceiver.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-DomesticaReceiver/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DomesticaReceiver/Pods-DomesticaReceiver.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_DomesticaReceiver;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4CBAD422D2F1238274E9369AF674ABBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F76F353D97E26DDC7EB7F92E692F32D6 /* Domestica.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Domestica/Domestica-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Domestica/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Domestica/Domestica.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Domestica;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		58AD32DEE1644EA4A898272C677678A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7AD28A3E69FFAE868B5A98CFFC636E69 /* Pods-DomesticaReceiver.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -561,18 +635,18 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-LighthouseSender/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-DomesticaReceiver/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-LighthouseSender/Pods-LighthouseSender.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-DomesticaReceiver/Pods-DomesticaReceiver.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_LighthouseSender;
+				PRODUCT_NAME = Pods_DomesticaReceiver;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -651,44 +725,6 @@
 			};
 			name = Release;
 		};
-		7C8706887CDE5D5CA95698851EC4294E /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6C245D90FC4F2D659C497B9D950E6EE2 /* Pods-LighthouseReceiver.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-LighthouseReceiver/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-LighthouseReceiver/Pods-LighthouseReceiver.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_LighthouseReceiver;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		9BFC9E4A7AAD7A607ACE06D95A401A5A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -738,9 +774,9 @@
 			};
 			name = Debug;
 		};
-		A134862DDD352DED99F0116B0BC9B660 /* Debug */ = {
+		9DE3E1CF5B5CBA94AFB4AF3EA1EB0312 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D40FC9AF3013EB22A02FE875F5C91B98 /* Pods-LighthouseSender.debug.xcconfig */;
+			baseConfigurationReference = 02E007A8E6D0EED921954C405B28F515 /* Pods-DomesticaSender.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -754,57 +790,18 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-LighthouseSender/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-DomesticaSender/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-LighthouseSender/Pods-LighthouseSender.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-DomesticaSender/Pods-DomesticaSender.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_LighthouseSender;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		A6D4386DB1782B72A5A10D58D539683E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C92761A8DBD64421F0B9C615E76C3F7C /* Pods-LighthouseReceiver.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-LighthouseReceiver/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-LighthouseReceiver/Pods-LighthouseReceiver.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_LighthouseReceiver;
+				PRODUCT_NAME = Pods_DomesticaSender;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
@@ -860,9 +857,9 @@
 			};
 			name = Release;
 		};
-		E0F9CE9DD6F811B2EC687F8A5096C530 /* Release */ = {
+		D01D7BCB8CE1F262C6FCD570080A5217 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1846882DB35E29502965F5348C6C6BA4 /* Lighthouse.xcconfig */;
+			baseConfigurationReference = F76F353D97E26DDC7EB7F92E692F32D6 /* Domestica.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -876,14 +873,14 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Lighthouse/Lighthouse-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Lighthouse/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/Domestica/Domestica-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Domestica/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Lighthouse/Lighthouse.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Domestica/Domestica.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = Lighthouse;
+				PRODUCT_NAME = Domestica;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -895,44 +892,56 @@
 			};
 			name = Release;
 		};
-		E64CD62A250F9B168FA09D6EC980DAEE /* Debug */ = {
+		F2BE61552FEEBD3338EB87259228B028 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1846882DB35E29502965F5348C6C6BA4 /* Lighthouse.xcconfig */;
+			baseConfigurationReference = 6BC75CB7B1AC241BE6D6EE1167BAFEC6 /* Pods-DomesticaSender.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Lighthouse/Lighthouse-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Lighthouse/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-DomesticaSender/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Lighthouse/Lighthouse.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = Lighthouse;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DomesticaSender/Pods-DomesticaSender.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_DomesticaSender;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		2617FF4ADF22E6F165214D879FE04C2C /* Build configuration list for PBXNativeTarget "Domestica" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CBAD422D2F1238274E9369AF674ABBA /* Debug */,
+				D01D7BCB8CE1F262C6FCD570080A5217 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -942,29 +951,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8B5DA92BA46AE277E77EA63F63BE3D6D /* Build configuration list for PBXNativeTarget "Lighthouse" */ = {
+		5723D4A32BB5A01039FB3D3F9F3AC911 /* Build configuration list for PBXNativeTarget "Pods-DomesticaReceiver" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E64CD62A250F9B168FA09D6EC980DAEE /* Debug */,
-				E0F9CE9DD6F811B2EC687F8A5096C530 /* Release */,
+				15AD4B139209C4D6A8EC0467BF8DEFDC /* Debug */,
+				58AD32DEE1644EA4A898272C677678A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B6876AD82CC7A1A4377252854C135BC1 /* Build configuration list for PBXNativeTarget "Pods-LighthouseReceiver" */ = {
+		D7198746B136AAB07D02092289BB0442 /* Build configuration list for PBXNativeTarget "Pods-DomesticaSender" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A6D4386DB1782B72A5A10D58D539683E /* Debug */,
-				7C8706887CDE5D5CA95698851EC4294E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		C2F7892AD376AFE3E5C9752EF17C254E /* Build configuration list for PBXNativeTarget "Pods-LighthouseSender" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A134862DDD352DED99F0116B0BC9B660 /* Debug */,
-				4D53A1F4EA17B094C66693D70DA7CDB9 /* Release */,
+				9DE3E1CF5B5CBA94AFB4AF3EA1EB0312 /* Debug */,
+				F2BE61552FEEBD3338EB87259228B028 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
