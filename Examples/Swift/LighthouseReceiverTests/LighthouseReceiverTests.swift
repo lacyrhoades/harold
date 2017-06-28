@@ -1,15 +1,15 @@
 //
-//  LighthouseSwiftExampleTests.swift
-//  LighthouseSwiftExampleTests
+//  LighthouseReceiverTests.swift
+//  LighthouseReceiverTests
 //
 //  Created by Lacy Rhoades on 6/28/17.
 //  Copyright © 2017 Lacy Rhoades. All rights reserved.
 //
 
 import XCTest
-@testable import LighthouseSwiftExample
+@testable import LighthouseReceiver
 
-class LighthouseSwiftExampleTests: XCTestCase {
+class LighthouseReceiverTests: XCTestCase {
     
     override func setUp() {
         super.setUp()

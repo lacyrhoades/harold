@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Lighthouse'
-  s.version          = '0.1.0'
+  s.version          = '0.2.2'
   s.summary          = 'Simple discoverabiliy layer for Swift and Node.js'
 
 # This description is used to generate tags and improve search results.

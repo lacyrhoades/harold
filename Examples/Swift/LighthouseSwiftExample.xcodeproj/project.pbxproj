@@ -7,84 +7,125 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0FDEB2FD1F04068000CA9854 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FDEB2FC1F04068000CA9854 /* AppDelegate.swift */; };
-		0FDEB2FF1F04068000CA9854 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FDEB2FE1F04068000CA9854 /* ViewController.swift */; };
-		0FDEB3021F04068000CA9854 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FDEB3001F04068000CA9854 /* Main.storyboard */; };
-		0FDEB3041F04068000CA9854 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FDEB3031F04068000CA9854 /* Assets.xcassets */; };
-		0FDEB3071F04068000CA9854 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FDEB3051F04068000CA9854 /* LaunchScreen.storyboard */; };
-		0FDEB3121F04068000CA9854 /* LighthouseSwiftExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FDEB3111F04068000CA9854 /* LighthouseSwiftExampleTests.swift */; };
-		0FDEB31D1F04068000CA9854 /* LighthouseSwiftExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FDEB31C1F04068000CA9854 /* LighthouseSwiftExampleUITests.swift */; };
-		40D1E9662634479286C88093 /* Pods_LighthouseSwiftExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB980CBBE76974F509476F03 /* Pods_LighthouseSwiftExample.framework */; };
+		0F4D1C511F0417DB00797DB8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F4D1C501F0417DB00797DB8 /* AppDelegate.swift */; };
+		0F4D1C581F0417DB00797DB8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F4D1C571F0417DB00797DB8 /* Assets.xcassets */; };
+		0F4D1C5B1F0417DB00797DB8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F4D1C591F0417DB00797DB8 /* LaunchScreen.storyboard */; };
+		0F4D1C7C1F04180B00797DB8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FDEB2FE1F04068000CA9854 /* ViewController.swift */; };
+		0F4D1C7E1F04181E00797DB8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FDEB3001F04068000CA9854 /* Main.storyboard */; };
+		0FBCB10D1F041D3600C34D95 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FBCB10C1F041D3600C34D95 /* AppDelegate.swift */; };
+		0FBCB1141F041D3600C34D95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FBCB1131F041D3600C34D95 /* Assets.xcassets */; };
+		0FBCB1171F041D3600C34D95 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FBCB1151F041D3600C34D95 /* LaunchScreen.storyboard */; };
+		0FBCB1381F041D5C00C34D95 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FDEB2FE1F04068000CA9854 /* ViewController.swift */; };
+		0FBCB1391F041D6000C34D95 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FDEB3001F04068000CA9854 /* Main.storyboard */; };
+		26368654016655B0ED70FEFC /* Pods_LighthouseReceiver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A3DF4690A3FB542581B03D1 /* Pods_LighthouseReceiver.framework */; };
+		5815BB77A0BC2750113E6EFF /* Pods_LighthouseSender.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F3360CEC03E30226398F538 /* Pods_LighthouseSender.framework */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		0FDEB30E1F04068000CA9854 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 0FDEB2F11F04068000CA9854 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 0FDEB2F81F04068000CA9854;
-			remoteInfo = LighthouseSwiftExample;
-		};
-		0FDEB3191F04068000CA9854 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 0FDEB2F11F04068000CA9854 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 0FDEB2F81F04068000CA9854;
-			remoteInfo = LighthouseSwiftExample;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		0FDEB2F91F04068000CA9854 /* LighthouseSwiftExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LighthouseSwiftExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		0FDEB2FC1F04068000CA9854 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0FDEB2FE1F04068000CA9854 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0F4D1C4E1F0417DB00797DB8 /* LighthouseSender.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LighthouseSender.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F4D1C501F0417DB00797DB8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0F4D1C571F0417DB00797DB8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0F4D1C5A1F0417DB00797DB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0F4D1C5C1F0417DB00797DB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0FBCB10A1F041D3600C34D95 /* LighthouseReceiver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LighthouseReceiver.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0FBCB10C1F041D3600C34D95 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0FBCB1131F041D3600C34D95 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0FBCB1161F041D3600C34D95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0FBCB1181F041D3600C34D95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0FBCB1211F041D3600C34D95 /* LighthouseReceiverTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LighthouseReceiverTests.swift; sourceTree = "<group>"; };
+		0FBCB1231F041D3600C34D95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0FBCB12C1F041D3700C34D95 /* LighthouseReceiverUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LighthouseReceiverUITests.swift; sourceTree = "<group>"; };
+		0FBCB12E1F041D3700C34D95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0FDEB2FE1F04068000CA9854 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = LighthouseSwiftExample/ViewController.swift; sourceTree = "<group>"; };
 		0FDEB3011F04068000CA9854 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		0FDEB3031F04068000CA9854 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		0FDEB3061F04068000CA9854 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		0FDEB3081F04068000CA9854 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0FDEB30D1F04068000CA9854 /* LighthouseSwiftExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LighthouseSwiftExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		0FDEB3111F04068000CA9854 /* LighthouseSwiftExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LighthouseSwiftExampleTests.swift; sourceTree = "<group>"; };
-		0FDEB3131F04068000CA9854 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0FDEB3181F04068000CA9854 /* LighthouseSwiftExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LighthouseSwiftExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		0FDEB31C1F04068000CA9854 /* LighthouseSwiftExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LighthouseSwiftExampleUITests.swift; sourceTree = "<group>"; };
-		0FDEB31E1F04068000CA9854 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29A3DC39C5F5DC9664B13E4C /* Pods-LighthouseReceiver.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LighthouseReceiver.release.xcconfig"; path = "Pods/Target Support Files/Pods-LighthouseReceiver/Pods-LighthouseReceiver.release.xcconfig"; sourceTree = "<group>"; };
 		36837B2B6D210A817D8E401F /* Pods-LighthouseSwiftExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LighthouseSwiftExample.release.xcconfig"; path = "Pods/Target Support Files/Pods-LighthouseSwiftExample/Pods-LighthouseSwiftExample.release.xcconfig"; sourceTree = "<group>"; };
+		5B26EABD34BF476EBB14D43F /* Pods-LighthouseReceiver.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LighthouseReceiver.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LighthouseReceiver/Pods-LighthouseReceiver.debug.xcconfig"; sourceTree = "<group>"; };
+		6A3DF4690A3FB542581B03D1 /* Pods_LighthouseReceiver.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LighthouseReceiver.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F3360CEC03E30226398F538 /* Pods_LighthouseSender.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LighthouseSender.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6F44ABD9A7D0D0D7E4E2F51 /* Pods-LighthouseSender.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LighthouseSender.release.xcconfig"; path = "Pods/Target Support Files/Pods-LighthouseSender/Pods-LighthouseSender.release.xcconfig"; sourceTree = "<group>"; };
 		CB980CBBE76974F509476F03 /* Pods_LighthouseSwiftExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LighthouseSwiftExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFD09CC3EF323D33CC346584 /* Pods-LighthouseSwiftExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LighthouseSwiftExample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LighthouseSwiftExample/Pods-LighthouseSwiftExample.debug.xcconfig"; sourceTree = "<group>"; };
+		FD76FC1462C03F8D1B3958C8 /* Pods-LighthouseSender.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LighthouseSender.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LighthouseSender/Pods-LighthouseSender.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0FDEB2F61F04068000CA9854 /* Frameworks */ = {
+		0F4D1C4B1F0417DB00797DB8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				40D1E9662634479286C88093 /* Pods_LighthouseSwiftExample.framework in Frameworks */,
+				5815BB77A0BC2750113E6EFF /* Pods_LighthouseSender.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0FDEB30A1F04068000CA9854 /* Frameworks */ = {
+		0FBCB1071F041D3600C34D95 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		0FDEB3151F04068000CA9854 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				26368654016655B0ED70FEFC /* Pods_LighthouseReceiver.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0F4D1C4F1F0417DB00797DB8 /* LighthouseSender */ = {
+			isa = PBXGroup;
+			children = (
+				0F4D1C501F0417DB00797DB8 /* AppDelegate.swift */,
+				0F4D1C571F0417DB00797DB8 /* Assets.xcassets */,
+				0F4D1C591F0417DB00797DB8 /* LaunchScreen.storyboard */,
+				0F4D1C5C1F0417DB00797DB8 /* Info.plist */,
+			);
+			path = LighthouseSender;
+			sourceTree = "<group>";
+		};
+		0F4D1C7D1F04180F00797DB8 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				0FDEB3001F04068000CA9854 /* Main.storyboard */,
+				0FDEB2FE1F04068000CA9854 /* ViewController.swift */,
+			);
+			name = Shared;
+			sourceTree = "<group>";
+		};
+		0FBCB10B1F041D3600C34D95 /* LighthouseReceiver */ = {
+			isa = PBXGroup;
+			children = (
+				0FBCB10C1F041D3600C34D95 /* AppDelegate.swift */,
+				0FBCB1131F041D3600C34D95 /* Assets.xcassets */,
+				0FBCB1151F041D3600C34D95 /* LaunchScreen.storyboard */,
+				0FBCB1181F041D3600C34D95 /* Info.plist */,
+			);
+			path = LighthouseReceiver;
+			sourceTree = "<group>";
+		};
+		0FBCB1201F041D3600C34D95 /* LighthouseReceiverTests */ = {
+			isa = PBXGroup;
+			children = (
+				0FBCB1211F041D3600C34D95 /* LighthouseReceiverTests.swift */,
+				0FBCB1231F041D3600C34D95 /* Info.plist */,
+			);
+			path = LighthouseReceiverTests;
+			sourceTree = "<group>";
+		};
+		0FBCB12B1F041D3700C34D95 /* LighthouseReceiverUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0FBCB12C1F041D3700C34D95 /* LighthouseReceiverUITests.swift */,
+				0FBCB12E1F041D3700C34D95 /* Info.plist */,
+			);
+			path = LighthouseReceiverUITests;
+			sourceTree = "<group>";
+		};
 		0FDEB2F01F04068000CA9854 = {
 			isa = PBXGroup;
 			children = (
-				0FDEB2FB1F04068000CA9854 /* LighthouseSwiftExample */,
-				0FDEB3101F04068000CA9854 /* LighthouseSwiftExampleTests */,
-				0FDEB31B1F04068000CA9854 /* LighthouseSwiftExampleUITests */,
+				0F4D1C7D1F04180F00797DB8 /* Shared */,
+				0F4D1C4F1F0417DB00797DB8 /* LighthouseSender */,
+				0FBCB10B1F041D3600C34D95 /* LighthouseReceiver */,
+				0FBCB1201F041D3600C34D95 /* LighthouseReceiverTests */,
+				0FBCB12B1F041D3700C34D95 /* LighthouseReceiverUITests */,
 				0FDEB2FA1F04068000CA9854 /* Products */,
 				E3C3EFE55C5E51AD8CDB8E2D /* Pods */,
 				2A8BC2A8852840A19BA44AAF /* Frameworks */,
@@ -94,48 +135,18 @@
 		0FDEB2FA1F04068000CA9854 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0FDEB2F91F04068000CA9854 /* LighthouseSwiftExample.app */,
-				0FDEB30D1F04068000CA9854 /* LighthouseSwiftExampleTests.xctest */,
-				0FDEB3181F04068000CA9854 /* LighthouseSwiftExampleUITests.xctest */,
+				0F4D1C4E1F0417DB00797DB8 /* LighthouseSender.app */,
+				0FBCB10A1F041D3600C34D95 /* LighthouseReceiver.app */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		0FDEB2FB1F04068000CA9854 /* LighthouseSwiftExample */ = {
-			isa = PBXGroup;
-			children = (
-				0FDEB2FC1F04068000CA9854 /* AppDelegate.swift */,
-				0FDEB2FE1F04068000CA9854 /* ViewController.swift */,
-				0FDEB3001F04068000CA9854 /* Main.storyboard */,
-				0FDEB3031F04068000CA9854 /* Assets.xcassets */,
-				0FDEB3051F04068000CA9854 /* LaunchScreen.storyboard */,
-				0FDEB3081F04068000CA9854 /* Info.plist */,
-			);
-			path = LighthouseSwiftExample;
-			sourceTree = "<group>";
-		};
-		0FDEB3101F04068000CA9854 /* LighthouseSwiftExampleTests */ = {
-			isa = PBXGroup;
-			children = (
-				0FDEB3111F04068000CA9854 /* LighthouseSwiftExampleTests.swift */,
-				0FDEB3131F04068000CA9854 /* Info.plist */,
-			);
-			path = LighthouseSwiftExampleTests;
-			sourceTree = "<group>";
-		};
-		0FDEB31B1F04068000CA9854 /* LighthouseSwiftExampleUITests */ = {
-			isa = PBXGroup;
-			children = (
-				0FDEB31C1F04068000CA9854 /* LighthouseSwiftExampleUITests.swift */,
-				0FDEB31E1F04068000CA9854 /* Info.plist */,
-			);
-			path = LighthouseSwiftExampleUITests;
 			sourceTree = "<group>";
 		};
 		2A8BC2A8852840A19BA44AAF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				CB980CBBE76974F509476F03 /* Pods_LighthouseSwiftExample.framework */,
+				6A3DF4690A3FB542581B03D1 /* Pods_LighthouseReceiver.framework */,
+				7F3360CEC03E30226398F538 /* Pods_LighthouseSender.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -145,6 +156,10 @@
 			children = (
 				EFD09CC3EF323D33CC346584 /* Pods-LighthouseSwiftExample.debug.xcconfig */,
 				36837B2B6D210A817D8E401F /* Pods-LighthouseSwiftExample.release.xcconfig */,
+				5B26EABD34BF476EBB14D43F /* Pods-LighthouseReceiver.debug.xcconfig */,
+				29A3DC39C5F5DC9664B13E4C /* Pods-LighthouseReceiver.release.xcconfig */,
+				FD76FC1462C03F8D1B3958C8 /* Pods-LighthouseSender.debug.xcconfig */,
+				C6F44ABD9A7D0D0D7E4E2F51 /* Pods-LighthouseSender.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -152,61 +167,45 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0FDEB2F81F04068000CA9854 /* LighthouseSwiftExample */ = {
+		0F4D1C4D1F0417DB00797DB8 /* LighthouseSender */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0FDEB3211F04068000CA9854 /* Build configuration list for PBXNativeTarget "LighthouseSwiftExample" */;
+			buildConfigurationList = 0F4D1C731F0417DB00797DB8 /* Build configuration list for PBXNativeTarget "LighthouseSender" */;
 			buildPhases = (
-				90AFDD0B384441D10B2A2784 /* [CP] Check Pods Manifest.lock */,
-				0FDEB2F51F04068000CA9854 /* Sources */,
-				0FDEB2F61F04068000CA9854 /* Frameworks */,
-				0FDEB2F71F04068000CA9854 /* Resources */,
-				DCAE3D111896CE83560F9DF1 /* [CP] Embed Pods Frameworks */,
-				5CEFA6F82867115E85447C8B /* [CP] Copy Pods Resources */,
+				9440E13CA596701C1922705B /* [CP] Check Pods Manifest.lock */,
+				0F4D1C4A1F0417DB00797DB8 /* Sources */,
+				0F4D1C4B1F0417DB00797DB8 /* Frameworks */,
+				0F4D1C4C1F0417DB00797DB8 /* Resources */,
+				C09ED1D2B55D59D299B4054E /* [CP] Embed Pods Frameworks */,
+				A3E83FF3404279997495C737 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = LighthouseSwiftExample;
-			productName = LighthouseSwiftExample;
-			productReference = 0FDEB2F91F04068000CA9854 /* LighthouseSwiftExample.app */;
+			name = LighthouseSender;
+			productName = LighthouseSender;
+			productReference = 0F4D1C4E1F0417DB00797DB8 /* LighthouseSender.app */;
 			productType = "com.apple.product-type.application";
 		};
-		0FDEB30C1F04068000CA9854 /* LighthouseSwiftExampleTests */ = {
+		0FBCB1091F041D3600C34D95 /* LighthouseReceiver */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0FDEB3241F04068000CA9854 /* Build configuration list for PBXNativeTarget "LighthouseSwiftExampleTests" */;
+			buildConfigurationList = 0FBCB12F1F041D3700C34D95 /* Build configuration list for PBXNativeTarget "LighthouseReceiver" */;
 			buildPhases = (
-				0FDEB3091F04068000CA9854 /* Sources */,
-				0FDEB30A1F04068000CA9854 /* Frameworks */,
-				0FDEB30B1F04068000CA9854 /* Resources */,
+				70A91A390ADDE6272620730F /* [CP] Check Pods Manifest.lock */,
+				0FBCB1061F041D3600C34D95 /* Sources */,
+				0FBCB1071F041D3600C34D95 /* Frameworks */,
+				0FBCB1081F041D3600C34D95 /* Resources */,
+				B1586CB8C869292C46F38D59 /* [CP] Embed Pods Frameworks */,
+				A4365C50220FA8DA5FA9000F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				0FDEB30F1F04068000CA9854 /* PBXTargetDependency */,
 			);
-			name = LighthouseSwiftExampleTests;
-			productName = LighthouseSwiftExampleTests;
-			productReference = 0FDEB30D1F04068000CA9854 /* LighthouseSwiftExampleTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		0FDEB3171F04068000CA9854 /* LighthouseSwiftExampleUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 0FDEB3271F04068000CA9854 /* Build configuration list for PBXNativeTarget "LighthouseSwiftExampleUITests" */;
-			buildPhases = (
-				0FDEB3141F04068000CA9854 /* Sources */,
-				0FDEB3151F04068000CA9854 /* Frameworks */,
-				0FDEB3161F04068000CA9854 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				0FDEB31A1F04068000CA9854 /* PBXTargetDependency */,
-			);
-			name = LighthouseSwiftExampleUITests;
-			productName = LighthouseSwiftExampleUITests;
-			productReference = 0FDEB3181F04068000CA9854 /* LighthouseSwiftExampleUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
+			name = LighthouseReceiver;
+			productName = LighthouseReceiver;
+			productReference = 0FBCB10A1F041D3600C34D95 /* LighthouseReceiver.app */;
+			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
@@ -218,19 +217,15 @@
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = "Lacy Rhoades";
 				TargetAttributes = {
-					0FDEB2F81F04068000CA9854 = {
+					0F4D1C4D1F0417DB00797DB8 = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = HZT822U3RS;
 						ProvisioningStyle = Automatic;
 					};
-					0FDEB30C1F04068000CA9854 = {
+					0FBCB1091F041D3600C34D95 = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = HZT822U3RS;
 						ProvisioningStyle = Automatic;
-						TestTargetID = 0FDEB2F81F04068000CA9854;
-					};
-					0FDEB3171F04068000CA9854 = {
-						CreatedOnToolsVersion = 8.3.3;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 0FDEB2F81F04068000CA9854;
 					};
 				};
 			};
@@ -247,42 +242,73 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0FDEB2F81F04068000CA9854 /* LighthouseSwiftExample */,
-				0FDEB30C1F04068000CA9854 /* LighthouseSwiftExampleTests */,
-				0FDEB3171F04068000CA9854 /* LighthouseSwiftExampleUITests */,
+				0F4D1C4D1F0417DB00797DB8 /* LighthouseSender */,
+				0FBCB1091F041D3600C34D95 /* LighthouseReceiver */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		0FDEB2F71F04068000CA9854 /* Resources */ = {
+		0F4D1C4C1F0417DB00797DB8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0FDEB3071F04068000CA9854 /* LaunchScreen.storyboard in Resources */,
-				0FDEB3041F04068000CA9854 /* Assets.xcassets in Resources */,
-				0FDEB3021F04068000CA9854 /* Main.storyboard in Resources */,
+				0F4D1C5B1F0417DB00797DB8 /* LaunchScreen.storyboard in Resources */,
+				0F4D1C581F0417DB00797DB8 /* Assets.xcassets in Resources */,
+				0F4D1C7E1F04181E00797DB8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0FDEB30B1F04068000CA9854 /* Resources */ = {
+		0FBCB1081F041D3600C34D95 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		0FDEB3161F04068000CA9854 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				0FBCB1391F041D6000C34D95 /* Main.storyboard in Resources */,
+				0FBCB1171F041D3600C34D95 /* LaunchScreen.storyboard in Resources */,
+				0FBCB1141F041D3600C34D95 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		5CEFA6F82867115E85447C8B /* [CP] Copy Pods Resources */ = {
+		70A91A390ADDE6272620730F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LighthouseReceiver-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9440E13CA596701C1922705B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LighthouseSender-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A3E83FF3404279997495C737 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -294,34 +320,31 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LighthouseSwiftExample/Pods-LighthouseSwiftExample-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LighthouseSender/Pods-LighthouseSender-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		90AFDD0B384441D10B2A2784 /* [CP] Check Pods Manifest.lock */ = {
+		A4365C50220FA8DA5FA9000F /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
 			);
-			name = "[CP] Check Pods Manifest.lock";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-LighthouseSwiftExample-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LighthouseReceiver/Pods-LighthouseReceiver-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		DCAE3D111896CE83560F9DF1 /* [CP] Embed Pods Frameworks */ = {
+		B1586CB8C869292C46F38D59 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-LighthouseSwiftExample/Pods-LighthouseSwiftExample-frameworks.sh",
+				"${SRCROOT}/Pods/Target Support Files/Pods-LighthouseReceiver/Pods-LighthouseReceiver-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/CocoaAsyncSocket/CocoaAsyncSocket.framework",
 				"${BUILT_PRODUCTS_DIR}/Lighthouse/Lighthouse.framework",
 			);
@@ -332,72 +355,137 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LighthouseSwiftExample/Pods-LighthouseSwiftExample-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LighthouseReceiver/Pods-LighthouseReceiver-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C09ED1D2B55D59D299B4054E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-LighthouseSender/Pods-LighthouseSender-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/CocoaAsyncSocket/CocoaAsyncSocket.framework",
+				"${BUILT_PRODUCTS_DIR}/Lighthouse/Lighthouse.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CocoaAsyncSocket.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Lighthouse.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LighthouseSender/Pods-LighthouseSender-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0FDEB2F51F04068000CA9854 /* Sources */ = {
+		0F4D1C4A1F0417DB00797DB8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0FDEB2FF1F04068000CA9854 /* ViewController.swift in Sources */,
-				0FDEB2FD1F04068000CA9854 /* AppDelegate.swift in Sources */,
+				0F4D1C7C1F04180B00797DB8 /* ViewController.swift in Sources */,
+				0F4D1C511F0417DB00797DB8 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0FDEB3091F04068000CA9854 /* Sources */ = {
+		0FBCB1061F041D3600C34D95 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0FDEB3121F04068000CA9854 /* LighthouseSwiftExampleTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		0FDEB3141F04068000CA9854 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0FDEB31D1F04068000CA9854 /* LighthouseSwiftExampleUITests.swift in Sources */,
+				0FBCB1381F041D5C00C34D95 /* ViewController.swift in Sources */,
+				0FBCB10D1F041D3600C34D95 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		0FDEB30F1F04068000CA9854 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 0FDEB2F81F04068000CA9854 /* LighthouseSwiftExample */;
-			targetProxy = 0FDEB30E1F04068000CA9854 /* PBXContainerItemProxy */;
-		};
-		0FDEB31A1F04068000CA9854 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 0FDEB2F81F04068000CA9854 /* LighthouseSwiftExample */;
-			targetProxy = 0FDEB3191F04068000CA9854 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin PBXVariantGroup section */
+		0F4D1C591F0417DB00797DB8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0F4D1C5A1F0417DB00797DB8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		0FBCB1151F041D3600C34D95 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0FBCB1161F041D3600C34D95 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
 		0FDEB3001F04068000CA9854 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				0FDEB3011F04068000CA9854 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		0FDEB3051F04068000CA9854 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0FDEB3061F04068000CA9854 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
+			path = LighthouseSwiftExample;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		0F4D1C741F0417DB00797DB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD76FC1462C03F8D1B3958C8 /* Pods-LighthouseSender.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = HZT822U3RS;
+				INFOPLIST_FILE = LighthouseSender/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.colordeaf.LighthouseSender;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		0F4D1C751F0417DB00797DB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6F44ABD9A7D0D0D7E4E2F51 /* Pods-LighthouseSender.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = HZT822U3RS;
+				INFOPLIST_FILE = LighthouseSender/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.colordeaf.LighthouseSender;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		0FBCB1301F041D3700C34D95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B26EABD34BF476EBB14D43F /* Pods-LighthouseReceiver.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = HZT822U3RS;
+				INFOPLIST_FILE = LighthouseReceiver/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.colordeaf.LighthouseReceiver;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		0FBCB1311F041D3700C34D95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29A3DC39C5F5DC9664B13E4C /* Pods-LighthouseReceiver.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = HZT822U3RS;
+				INFOPLIST_FILE = LighthouseReceiver/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.colordeaf.LighthouseReceiver;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
 		0FDEB31F1F04068000CA9854 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -493,91 +581,27 @@
 			};
 			name = Release;
 		};
-		0FDEB3221F04068000CA9854 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = EFD09CC3EF323D33CC346584 /* Pods-LighthouseSwiftExample.debug.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = LighthouseSwiftExample/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = net.colordeaf.LighthouseSwiftExample;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-			};
-			name = Debug;
-		};
-		0FDEB3231F04068000CA9854 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 36837B2B6D210A817D8E401F /* Pods-LighthouseSwiftExample.release.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = LighthouseSwiftExample/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = net.colordeaf.LighthouseSwiftExample;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-			};
-			name = Release;
-		};
-		0FDEB3251F04068000CA9854 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = LighthouseSwiftExampleTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = net.colordeaf.LighthouseSwiftExampleTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LighthouseSwiftExample.app/LighthouseSwiftExample";
-			};
-			name = Debug;
-		};
-		0FDEB3261F04068000CA9854 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = LighthouseSwiftExampleTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = net.colordeaf.LighthouseSwiftExampleTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LighthouseSwiftExample.app/LighthouseSwiftExample";
-			};
-			name = Release;
-		};
-		0FDEB3281F04068000CA9854 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				INFOPLIST_FILE = LighthouseSwiftExampleUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = net.colordeaf.LighthouseSwiftExampleUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_TARGET_NAME = LighthouseSwiftExample;
-			};
-			name = Debug;
-		};
-		0FDEB3291F04068000CA9854 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				INFOPLIST_FILE = LighthouseSwiftExampleUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = net.colordeaf.LighthouseSwiftExampleUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_TARGET_NAME = LighthouseSwiftExample;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		0F4D1C731F0417DB00797DB8 /* Build configuration list for PBXNativeTarget "LighthouseSender" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F4D1C741F0417DB00797DB8 /* Debug */,
+				0F4D1C751F0417DB00797DB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0FBCB12F1F041D3700C34D95 /* Build configuration list for PBXNativeTarget "LighthouseReceiver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0FBCB1301F041D3700C34D95 /* Debug */,
+				0FBCB1311F041D3700C34D95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		0FDEB2F41F04068000CA9854 /* Build configuration list for PBXProject "LighthouseSwiftExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -586,30 +610,6 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
-		};
-		0FDEB3211F04068000CA9854 /* Build configuration list for PBXNativeTarget "LighthouseSwiftExample" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				0FDEB3221F04068000CA9854 /* Debug */,
-				0FDEB3231F04068000CA9854 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		0FDEB3241F04068000CA9854 /* Build configuration list for PBXNativeTarget "LighthouseSwiftExampleTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				0FDEB3251F04068000CA9854 /* Debug */,
-				0FDEB3261F04068000CA9854 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		0FDEB3271F04068000CA9854 /* Build configuration list for PBXNativeTarget "LighthouseSwiftExampleUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				0FDEB3281F04068000CA9854 /* Debug */,
-				0FDEB3291F04068000CA9854 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};

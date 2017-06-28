@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double Pods_LighthouseSwiftExampleVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_LighthouseSwiftExampleVersionString[];
+FOUNDATION_EXPORT double Pods_LighthouseSenderVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_LighthouseSenderVersionString[];
 

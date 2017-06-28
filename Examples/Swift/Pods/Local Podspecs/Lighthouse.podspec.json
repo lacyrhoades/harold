@@ -1,6 +1,6 @@
 {
   "name": "Lighthouse",
-  "version": "0.1.0",
+  "version": "0.2.2",
   "summary": "Simple discoverabiliy layer for Swift and Node.js",
   "description": "Simple discoverabiliy layer for Swift and Node.js – Find your apps and devices on your local subnet\nby broadcasting (or scanning for) UDP-layer messages",
   "homepage": "https://github.com/lacyrhoades/Lighthouse",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/lacyrhoades/Lighthouse.git",
-    "tag": "0.1.0"
+    "tag": "0.2.2"
   },
   "social_media_url": "https://twitter.com/lacyrhoades",
   "platforms": {

@@ -7,19 +7,56 @@
 //
 
 import UIKit
+import Lighthouse
 
 class ViewController: UIViewController {
 
+    private var textView = UITextView()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        textView.text = "Lighthouse – A discoverability layer for Swift and Node.js"
+        textView.isEditable = false
+        textView.translatesAutoresizingMaskIntoConstraints = false
+        self.view.addSubview(textView)
+        
+        let views = ["textView": textView]
+        let metrics = ["margin": 24]
+        
+        var constraints = NSLayoutConstraint.constraints(
+            withVisualFormat: "H:|-(margin)-[textView]-(margin)-|",
+            options: [],
+            metrics: metrics,
+            views: views
+        )
+        constraints.append(contentsOf: NSLayoutConstraint.constraints(
+            withVisualFormat: "V:|-(margin)-[textView]-(margin)-|",
+            options: [],
+            metrics: metrics,
+            views: views
+        ))
+        self.view.addConstraints(constraints)
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
+    func log(_ text: String) {
+        DispatchQueue.main.async {
+            self.textView.text = self.textView.text.appending("\n").appending(text)
+        }
     }
-
 
 }
 
+extension ViewController: LighthouseListener {
+    func lighthouseFoundHost(withAddress address: String, andInfo info: String) {
+        self.log(
+            String(format: "%@: %@", address, info)
+        )
+    }
+}
+
+extension ViewController: LighthouseLoggingDelegate {
+    func logFromLighthouse(_ message: String) {
+        self.log(message)
+    }
+}

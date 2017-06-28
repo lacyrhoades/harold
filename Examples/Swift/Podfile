@@ -2,7 +2,11 @@ use_frameworks!
 platform :ios, '10.0'
 swift_version = '3.0'
 
-target 'LighthouseSwiftExample' do
+target 'LighthouseSender' do
+pod 'Lighthouse', :path => '../../'
+end
+
+target 'LighthouseReceiver' do
 pod 'Lighthouse', :path => '../../'
 end
 
