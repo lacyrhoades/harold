@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'Harold'
   s.version          = '0.2.2'
-  s.summary          = 'Simple discoverabiliy layer for Swift and Node.js'
+  s.summary          = 'Simple local network discoverability layer for Swift and Node.js'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,8 +18,9 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-Simple discoverabiliy layer for Swift and Node.js – Find your apps and devices on your local subnet
-by broadcasting (or scanning for) UDP-layer messages
+Simple discoverability layer for Swift and Node.js – Find your projects, apps and devices on your local subnet
+by broadcasting (or scanning for) UDP-layer string-based messages. Helps projects to get connected quickly and
+automatically, without manually configuring connection information.
                        DESC
 
   s.homepage         = 'https://github.com/lacyrhoades/harold'
