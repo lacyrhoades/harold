@@ -43,20 +43,20 @@ class Harold extends EventEmitter {
     // console.log(`Listening to: ${ALL_INTERFACES_ADDR}:${self.port}`);
   }
   setupBroadcasting () {
-    self = this;
+    var self = this;
 
     var ifaceGroups = os.networkInterfaces();
     var keys = Object.keys(ifaceGroups);
     keys.forEach(function (ifname) {
       ifaceGroups[ifname].filter(function (iface) {
-        return iface.family == 'IPv4';
+        return iface.family == 'IPv4' && iface.internal == false;
       }).forEach(function(iface) {
         self.bindToAddress(iface.address)
       })
     });
   }
   bindToAddress (address) {
-    self = this;
+    var self = this;
 
     if (self.boundAddresses.includes(address)) {
       return;
@@ -70,16 +70,24 @@ class Harold extends EventEmitter {
     });
     self.broadcastSockets.push(socket);
   }
-  broadcast (message) {
+  broadcast (message, andthen) {
     var self = this;
 
     if (message == null) {
       message = "";
     }
-    var callback = null;
     self.broadcastSockets.forEach(function (socket) {
-      var buffer = new Buffer(message);
-      socket.send(buffer, 0, buffer.length, self.port, BROADCAST_ADDR, callback);
+      var buffer = new Buffer(message)
+      socket.send(buffer, 0, buffer.length, self.port, BROADCAST_ADDR, function (err) {
+        if (andthen != null) {
+          andthen()
+        }
+      })
+    })
+  }
+  endBroadcast () {
+    this.broadcastSockets.forEach(function (socket) {
+      socket.close();
     });
   }
 }
