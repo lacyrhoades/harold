@@ -1,7 +1,7 @@
 {
   "name": "harold",
   "version": "0.2.2",
-  "description": "A UDP-layer discoverabiliy tool between Swift and Node.js",
+  "description": "Simple local network discoverability layer for Swift and Node.js",
   "main": "Node/harold.js",
   "files": [
     "Node/*.js"
