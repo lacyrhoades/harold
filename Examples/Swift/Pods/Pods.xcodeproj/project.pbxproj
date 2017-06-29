@@ -7,140 +7,140 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		08B6F8B4EBC7B1465126163AF21DF1EC /* CocoaAsyncSocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91BA6F6CCD385509DC9FF3B1ACE3E309 /* CocoaAsyncSocket.framework */; };
-		1E7C2D4075DA37418FF4DD104EDA9219 /* Domestica.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3553ACB354B78440D2CD7D6A7F3E9DF6 /* Domestica.swift */; };
+		0F252EF2D39939E256EC64901C4A12D7 /* Pods-HaroldReceiver-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 26DD28AFA24A0EA92E96CA5D91AA45E1 /* Pods-HaroldReceiver-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		15ADEBF53D83825D7CECDB49A27B9A6B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18B811B7AE0E054C1E1A26521285653C /* Foundation.framework */; };
+		20AC6A6846B52F82CF18DCFEFFB10EF0 /* Harold-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C989FE25C38A039E90E69358F821BA86 /* Harold-dummy.m */; };
+		24F1E42C96CD4BD4D079ED504C2618F5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18B811B7AE0E054C1E1A26521285653C /* Foundation.framework */; };
 		2DAA98C8614A6DED26CE8712531AE1FC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18B811B7AE0E054C1E1A26521285653C /* Foundation.framework */; };
-		57DDB6EA848DBE50C25C899782304FDD /* Pods-DomesticaReceiver-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 406F91EE8D875B3CCFF45A39DD143A24 /* Pods-DomesticaReceiver-dummy.m */; };
-		6EC5CAE6DA768C055FE90193252364EA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18B811B7AE0E054C1E1A26521285653C /* Foundation.framework */; };
+		77CF04325A35E840821BEFCB82DD02D3 /* Pods-HaroldSender-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 69355A1A7DA97F1A1F2105D29D00181A /* Pods-HaroldSender-dummy.m */; };
 		7E4F0161B4D135DA3A0763619A56C2F5 /* CocoaAsyncSocket-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FA669EA9DB68616A6ECA64CA78D52EAC /* CocoaAsyncSocket-dummy.m */; };
 		8480493AEC1C7AF1B5C0E0BF2F70FB44 /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F9509718CFCC3D81230AA7CF02478B7 /* GCDAsyncSocket.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		8BD49B85C9EDA5FC34DE74298555C122 /* Domestica-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A2855C29114231A673F84B8F202BDB46 /* Domestica-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9EB8C23465DFF46BF5D9BF1AD059E420 /* Pods-HaroldReceiver-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EAC2F8EA1A77A09EA331AD78BC2FFFC /* Pods-HaroldReceiver-dummy.m */; };
+		A32C9120B1F9BFCF4C9B218592DA1D55 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18B811B7AE0E054C1E1A26521285653C /* Foundation.framework */; };
 		A882891E5A89CADF96C2CA79606409CA /* GCDAsyncSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = D82B81E88C7D98976B018DB4903B5D0C /* GCDAsyncSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AC7DC2A21843CD99040DCD79FF3BE91B /* GCDAsyncUdpSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 30CCCF41576100268BFA48C3EED9517C /* GCDAsyncUdpSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AEE9644DA0EFCF945438E125BA4F0724 /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 9235AEFD042C8D96AF4B4AA61E18C420 /* GCDAsyncUdpSocket.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		B01CAC2D57915547EEA5D60C420903B3 /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9D3EBFFFE735A83A8B8E3B519B52B36 /* Networking.swift */; };
-		B4841E8C7F5BBC6F4E3A2E92092D9D9A /* Pods-DomesticaSender-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F2B3CAE8CF6F7E404C014BF7AD798CCA /* Pods-DomesticaSender-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B4AFA6C7A7B6D4F9CA894DA52125F0B8 /* Pods-DomesticaSender-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C2AB37410D714F92C642369DF75F77F6 /* Pods-DomesticaSender-dummy.m */; };
 		B688B80E8B12B7F6988B29DC592DA94D /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A7E85CD06FB5B7EAC4FAD953117F2D2 /* Security.framework */; };
-		C3971279065BB787C4B007F7873F3C4B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18B811B7AE0E054C1E1A26521285653C /* Foundation.framework */; };
-		CB8A4ED28746F60C9DFBAC1652771319 /* Domestica-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C5EC559616EF9D751A1710E8F70E6AB5 /* Domestica-dummy.m */; };
-		CDEF9EEBA3C90ACACF52DDAE1AC38293 /* Pods-DomesticaReceiver-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D45303F761A6C0270DBB3A469AD9F5E /* Pods-DomesticaReceiver-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D01B2EBC1AB52980422F5A831BBCE3F4 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F18CCAEB371EC97E5B9FA432AB0D5F33 /* CFNetwork.framework */; };
-		E136B0F8A07C38C13540F7AEB49CC003 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18B811B7AE0E054C1E1A26521285653C /* Foundation.framework */; };
+		DECA51A46131C053EA97C5E4653CE99D /* Harold.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5B6293B613C6FA36C1AF52228FD700 /* Harold.swift */; };
+		E15C49A7253F2F3A092ADD79DDD17A3B /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3380B06D21D36D49A2A519974AA4B30 /* Networking.swift */; };
+		E196BEF1AB4CAF903B524880F01C8D8A /* Harold-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 87C79B49E7854867FC7EE0456FDAEBA0 /* Harold-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E4230DB0D114C94B081018C1AC1E9972 /* CocoaAsyncSocket-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A8A7C0B72CB1BFEC20A42E9E5B3E1A5D /* CocoaAsyncSocket-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F0953FF119872039FD99511935FCCF3F /* CocoaAsyncSocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91BA6F6CCD385509DC9FF3B1ACE3E309 /* CocoaAsyncSocket.framework */; };
+		FA820A3663C36A3D4511E8F3C1470E09 /* Pods-HaroldSender-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CCC8541E4A85CAEBD00A67D7CD8F76FC /* Pods-HaroldSender-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		040426D92A7FD0F883D458BA5888E456 /* PBXContainerItemProxy */ = {
+		3E992D383B7D0EE1CA9CA2723A55432C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = AC0D2D2B4EE7C873431AB3502859CA60;
 			remoteInfo = CocoaAsyncSocket;
 		};
-		1961617BBF4D649562D1037DD06E2D2B /* PBXContainerItemProxy */ = {
+		80BEE268AAF20CD37BF64BBD2E8BBED8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = AC0D2D2B4EE7C873431AB3502859CA60;
 			remoteInfo = CocoaAsyncSocket;
 		};
-		1B7072B55A178ECA4FB67BA09964C5C6 /* PBXContainerItemProxy */ = {
+		D1CB366DB1662D5A4047766D9BFE182C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = AC0D2D2B4EE7C873431AB3502859CA60;
 			remoteInfo = CocoaAsyncSocket;
 		};
-		318C291E8B5481C326D75B4235FB818C /* PBXContainerItemProxy */ = {
+		DF94156F7D5ABD61D605E479FD8F168A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = EB32E78E32CD5FECB50F2FBF2E7C433F;
-			remoteInfo = Domestica;
+			remoteGlobalIDString = 9F6F6896E16639A17FB487A2FF34E857;
+			remoteInfo = Harold;
 		};
-		D889077810BF69DB4BFC144993A592A1 /* PBXContainerItemProxy */ = {
+		EE6EC4A208FAA378356F3E6EC5A7AD29 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = EB32E78E32CD5FECB50F2FBF2E7C433F;
-			remoteInfo = Domestica;
+			remoteGlobalIDString = 9F6F6896E16639A17FB487A2FF34E857;
+			remoteInfo = Harold;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0120F7A8F470339C7165BC6AC9C68161 /* Pods-HaroldSender.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HaroldSender.release.xcconfig"; sourceTree = "<group>"; };
 		024FAD3A9561D2F4CB106D15D9557461 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		02E007A8E6D0EED921954C405B28F515 /* Pods-DomesticaSender.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DomesticaSender.debug.xcconfig"; sourceTree = "<group>"; };
-		05AA34EE58B82B9A0319110620F1408F /* Domestica-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Domestica-prefix.pch"; sourceTree = "<group>"; };
-		103E8E6BE0E667003FAE451B3718B5DF /* Pods-DomesticaReceiver-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DomesticaReceiver-resources.sh"; sourceTree = "<group>"; };
 		18B811B7AE0E054C1E1A26521285653C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		1C3A1045C129A42B52AD04C89AC1F138 /* Pods-DomesticaSender.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-DomesticaSender.modulemap"; sourceTree = "<group>"; };
+		26DD28AFA24A0EA92E96CA5D91AA45E1 /* Pods-HaroldReceiver-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HaroldReceiver-umbrella.h"; sourceTree = "<group>"; };
 		30CCCF41576100268BFA48C3EED9517C /* GCDAsyncUdpSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDAsyncUdpSocket.h; path = Source/GCD/GCDAsyncUdpSocket.h; sourceTree = "<group>"; };
-		3254FB1C0F96D5106C1BE5BCECB28466 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3553ACB354B78440D2CD7D6A7F3E9DF6 /* Domestica.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Domestica.swift; sourceTree = "<group>"; };
-		3D5FB5D65FF8D85E4B68543078E1194B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		406F91EE8D875B3CCFF45A39DD143A24 /* Pods-DomesticaReceiver-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DomesticaReceiver-dummy.m"; sourceTree = "<group>"; };
-		506BEBB6E4BA568FD0FE6F215B8A5383 /* Domestica.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Domestica.modulemap; sourceTree = "<group>"; };
+		3E3A08156725FFBEB77559972642CE40 /* Pods-HaroldReceiver-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HaroldReceiver-resources.sh"; sourceTree = "<group>"; };
+		40E84BD95F4CE1C03C18176CA4F38C4A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		453C28731069D1BC1F966610CCFA1B62 /* Pods-HaroldReceiver-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HaroldReceiver-acknowledgements.plist"; sourceTree = "<group>"; };
+		45F1F952732362F1CA511F92D3E6C22B /* Harold.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Harold.framework; path = Harold.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D93AEE3C2D9392AEA4B33483C8D610B /* Pods-HaroldSender.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HaroldSender.debug.xcconfig"; sourceTree = "<group>"; };
+		4DEB0EE90767E86B29026267F406CF86 /* Pods-HaroldSender-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HaroldSender-frameworks.sh"; sourceTree = "<group>"; };
+		4EAC2F8EA1A77A09EA331AD78BC2FFFC /* Pods-HaroldReceiver-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HaroldReceiver-dummy.m"; sourceTree = "<group>"; };
 		56387DA55BBF9D5729BB7A1C311C2894 /* CocoaAsyncSocket.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = CocoaAsyncSocket.modulemap; sourceTree = "<group>"; };
+		59F03CF7820AED90B3D4B60EED1249E0 /* Harold.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Harold.modulemap; sourceTree = "<group>"; };
 		5A7E85CD06FB5B7EAC4FAD953117F2D2 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		5D29B0889247FF56753BD2E38C70EAFA /* Pods-HaroldSender-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HaroldSender-resources.sh"; sourceTree = "<group>"; };
 		601E37EDFF15F9E763332F8ED114AF13 /* CocoaAsyncSocket-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CocoaAsyncSocket-prefix.pch"; sourceTree = "<group>"; };
-		68029BF13BFEB910F3EE7D43BAF3ED37 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6BC75CB7B1AC241BE6D6EE1167BAFEC6 /* Pods-DomesticaSender.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DomesticaSender.release.xcconfig"; sourceTree = "<group>"; };
-		717B71176891D4DE39B690B2033E1562 /* Pods-DomesticaReceiver-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DomesticaReceiver-acknowledgements.markdown"; sourceTree = "<group>"; };
-		7A729E5BD4E5209BEA96EF5D411B2002 /* Pods-DomesticaReceiver-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DomesticaReceiver-acknowledgements.plist"; sourceTree = "<group>"; };
-		7AD28A3E69FFAE868B5A98CFFC636E69 /* Pods-DomesticaReceiver.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DomesticaReceiver.release.xcconfig"; sourceTree = "<group>"; };
-		7B74AEBDB7B8ECC50DA7F82EECE838B7 /* Pods_DomesticaSender.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DomesticaSender.framework; path = "Pods-DomesticaSender.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		826C1FC0954401DD48BFB552502AE621 /* Pods-DomesticaSender-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DomesticaSender-frameworks.sh"; sourceTree = "<group>"; };
-		8372BFD514822C038F05E2920054FA0C /* Pods-DomesticaSender-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DomesticaSender-acknowledgements.plist"; sourceTree = "<group>"; };
-		83C687235751E3F30EA06FD3E19A6E39 /* Pods-DomesticaSender-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DomesticaSender-acknowledgements.markdown"; sourceTree = "<group>"; };
-		89836C2A53EEDCF4E23F059E2A8036AA /* Pods-DomesticaReceiver-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DomesticaReceiver-frameworks.sh"; sourceTree = "<group>"; };
+		60EA3B6F06C10D9516DB73CF811A94EA /* Pods-HaroldReceiver-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HaroldReceiver-acknowledgements.markdown"; sourceTree = "<group>"; };
+		69355A1A7DA97F1A1F2105D29D00181A /* Pods-HaroldSender-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HaroldSender-dummy.m"; sourceTree = "<group>"; };
+		778DE030D1E08CDD9331F0C65A577202 /* Pods_HaroldSender.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HaroldSender.framework; path = "Pods-HaroldSender.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		82D1423B8847AE0078B8EB3C4792022E /* CocoaAsyncSocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CocoaAsyncSocket.framework; path = CocoaAsyncSocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		875D4B8DD9279F3DE72B660C46D38EE9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87C79B49E7854867FC7EE0456FDAEBA0 /* Harold-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Harold-umbrella.h"; sourceTree = "<group>"; };
+		897CAFE86ACC3F3C40DA602E598D9614 /* Pods-HaroldReceiver.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-HaroldReceiver.modulemap"; sourceTree = "<group>"; };
+		8C46D6CF7EC9B468C88BE69DCB6983E3 /* Harold.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Harold.xcconfig; sourceTree = "<group>"; };
+		8D5B6293B613C6FA36C1AF52228FD700 /* Harold.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Harold.swift; sourceTree = "<group>"; };
 		8F9509718CFCC3D81230AA7CF02478B7 /* GCDAsyncSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDAsyncSocket.m; path = Source/GCD/GCDAsyncSocket.m; sourceTree = "<group>"; };
+		916E4818BC1C7C90A228A4D6196AEE20 /* Pods-HaroldReceiver-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HaroldReceiver-frameworks.sh"; sourceTree = "<group>"; };
 		91BA6F6CCD385509DC9FF3B1ACE3E309 /* CocoaAsyncSocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CocoaAsyncSocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9235AEFD042C8D96AF4B4AA61E18C420 /* GCDAsyncUdpSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDAsyncUdpSocket.m; path = Source/GCD/GCDAsyncUdpSocket.m; sourceTree = "<group>"; };
-		92F582BF6029986E8F59D4F261942624 /* CocoaAsyncSocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CocoaAsyncSocket.framework; path = CocoaAsyncSocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9D45303F761A6C0270DBB3A469AD9F5E /* Pods-DomesticaReceiver-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DomesticaReceiver-umbrella.h"; sourceTree = "<group>"; };
-		A2855C29114231A673F84B8F202BDB46 /* Domestica-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Domestica-umbrella.h"; sourceTree = "<group>"; };
+		A51F91454880F7245258619FE1103706 /* Pods_HaroldReceiver.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HaroldReceiver.framework; path = "Pods-HaroldReceiver.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8A7C0B72CB1BFEC20A42E9E5B3E1A5D /* CocoaAsyncSocket-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CocoaAsyncSocket-umbrella.h"; sourceTree = "<group>"; };
 		AEE3A3E21C4B978FE0BCEB9613DABBF6 /* CocoaAsyncSocket.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CocoaAsyncSocket.xcconfig; sourceTree = "<group>"; };
-		B93B1F3A3237B6CBB332C0E1860AFDE6 /* Pods-DomesticaReceiver.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DomesticaReceiver.debug.xcconfig"; sourceTree = "<group>"; };
-		C2AB37410D714F92C642369DF75F77F6 /* Pods-DomesticaSender-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DomesticaSender-dummy.m"; sourceTree = "<group>"; };
-		C3AF460FB64A889B254C4A5282CC827C /* Pods-DomesticaSender-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DomesticaSender-resources.sh"; sourceTree = "<group>"; };
-		C5EC559616EF9D751A1710E8F70E6AB5 /* Domestica-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Domestica-dummy.m"; sourceTree = "<group>"; };
-		C869D775D06DA83FAEA29D778BDC93F4 /* Domestica.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Domestica.framework; path = Domestica.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C9D3EBFFFE735A83A8B8E3B519B52B36 /* Networking.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
+		B3E0868595D607768DA740F75AF1919D /* Pods-HaroldReceiver.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HaroldReceiver.debug.xcconfig"; sourceTree = "<group>"; };
+		B60B13CB1FAF321CF76531326DACD197 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAC5AEC5DF2A8FECA6B5FEF3739D8078 /* Pods-HaroldSender-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HaroldSender-acknowledgements.plist"; sourceTree = "<group>"; };
+		BE791913DDCE2EDB77D655031074F334 /* Pods-HaroldSender.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-HaroldSender.modulemap"; sourceTree = "<group>"; };
+		C6BF608B0BCACE517E004EAD53D52D5F /* Pods-HaroldSender-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HaroldSender-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C989FE25C38A039E90E69358F821BA86 /* Harold-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Harold-dummy.m"; sourceTree = "<group>"; };
+		CCC8541E4A85CAEBD00A67D7CD8F76FC /* Pods-HaroldSender-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HaroldSender-umbrella.h"; sourceTree = "<group>"; };
 		D82B81E88C7D98976B018DB4903B5D0C /* GCDAsyncSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDAsyncSocket.h; path = Source/GCD/GCDAsyncSocket.h; sourceTree = "<group>"; };
-		D832AF4354F1124EC74EEEB38F8C5FC7 /* Pods-DomesticaReceiver.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-DomesticaReceiver.modulemap"; sourceTree = "<group>"; };
-		E75483551F0FD981F423DC292ADDF733 /* Pods_DomesticaReceiver.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DomesticaReceiver.framework; path = "Pods-DomesticaReceiver.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5ECFAEB30E1D71A73DFA464DC14DB0B /* Harold-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Harold-prefix.pch"; sourceTree = "<group>"; };
+		ED76B6BF5B15CD7CE574BE6BFF17054F /* Pods-HaroldReceiver.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HaroldReceiver.release.xcconfig"; sourceTree = "<group>"; };
 		F18CCAEB371EC97E5B9FA432AB0D5F33 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
-		F2B3CAE8CF6F7E404C014BF7AD798CCA /* Pods-DomesticaSender-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DomesticaSender-umbrella.h"; sourceTree = "<group>"; };
-		F76F353D97E26DDC7EB7F92E692F32D6 /* Domestica.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Domestica.xcconfig; sourceTree = "<group>"; };
+		F3380B06D21D36D49A2A519974AA4B30 /* Networking.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
 		FA669EA9DB68616A6ECA64CA78D52EAC /* CocoaAsyncSocket-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CocoaAsyncSocket-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2C710FCF4C7AB1EB231B02380205D19E /* Frameworks */ = {
+		1857B923467B0A035130D65A9A424C8A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				08B6F8B4EBC7B1465126163AF21DF1EC /* CocoaAsyncSocket.framework in Frameworks */,
-				6EC5CAE6DA768C055FE90193252364EA /* Foundation.framework in Frameworks */,
+				A32C9120B1F9BFCF4C9B218592DA1D55 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2E766925E21CCDE6A574D5132D9E738D /* Frameworks */ = {
+		276874ADD18FA2D76CE869AAA36D0B1E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C3971279065BB787C4B007F7873F3C4B /* Foundation.framework in Frameworks */,
+				15ADEBF53D83825D7CECDB49A27B9A6B /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7BE69A9A6317245175DB47751FFEE681 /* Frameworks */ = {
+		757C85AEC145A747FE4AA96A7C90F0BE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E136B0F8A07C38C13540F7AEB49CC003 /* Foundation.framework in Frameworks */,
+				F0953FF119872039FD99511935FCCF3F /* CocoaAsyncSocket.framework in Frameworks */,
+				24F1E42C96CD4BD4D079ED504C2618F5 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -157,57 +157,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0086BD39042D8E84CD61C3EADB8B9E69 /* Targets Support Files */ = {
+		115112443D4350736356B045A854D106 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				9D8CC1DBEBBCA512A53988DDC9098A7E /* Pods-DomesticaReceiver */,
-				EC5C76B17B081D66F807B173AE662F2E /* Pods-DomesticaSender */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		074976625E91A7276453A3DD160C40CE /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				92F582BF6029986E8F59D4F261942624 /* CocoaAsyncSocket.framework */,
-				C869D775D06DA83FAEA29D778BDC93F4 /* Domestica.framework */,
-				E75483551F0FD981F423DC292ADDF733 /* Pods_DomesticaReceiver.framework */,
-				7B74AEBDB7B8ECC50DA7F82EECE838B7 /* Pods_DomesticaSender.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		27C7A38B17D37CE26A48C01D9A35F1E7 /* Swift */ = {
-			isa = PBXGroup;
-			children = (
-				6DCBD22DDC424416232DC7440956A5CC /* Classes */,
-			);
-			name = Swift;
-			path = Swift;
-			sourceTree = "<group>";
-		};
-		2985EC5B9DAAAE8AFEC82BF644120B06 /* Domestica */ = {
-			isa = PBXGroup;
-			children = (
-				2A855215878EC1BD7FD1201EB2224569 /* Support Files */,
-				27C7A38B17D37CE26A48C01D9A35F1E7 /* Swift */,
-			);
-			name = Domestica;
-			path = ../../..;
-			sourceTree = "<group>";
-		};
-		2A855215878EC1BD7FD1201EB2224569 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				506BEBB6E4BA568FD0FE6F215B8A5383 /* Domestica.modulemap */,
-				F76F353D97E26DDC7EB7F92E692F32D6 /* Domestica.xcconfig */,
-				C5EC559616EF9D751A1710E8F70E6AB5 /* Domestica-dummy.m */,
-				05AA34EE58B82B9A0319110620F1408F /* Domestica-prefix.pch */,
-				A2855C29114231A673F84B8F202BDB46 /* Domestica-umbrella.h */,
-				3D5FB5D65FF8D85E4B68543078E1194B /* Info.plist */,
+				59F03CF7820AED90B3D4B60EED1249E0 /* Harold.modulemap */,
+				8C46D6CF7EC9B468C88BE69DCB6983E3 /* Harold.xcconfig */,
+				C989FE25C38A039E90E69358F821BA86 /* Harold-dummy.m */,
+				E5ECFAEB30E1D71A73DFA464DC14DB0B /* Harold-prefix.pch */,
+				87C79B49E7854867FC7EE0456FDAEBA0 /* Harold-umbrella.h */,
+				875D4B8DD9279F3DE72B660C46D38EE9 /* Info.plist */,
 			);
 			name = "Support Files";
-			path = "Examples/Swift/Pods/Target Support Files/Domestica";
+			path = "Examples/Swift/Pods/Target Support Files/Harold";
 			sourceTree = "<group>";
 		};
 		2B933D4B764323E14C9F306E59BA9E9E /* iOS */ = {
@@ -234,33 +195,15 @@
 			path = "../Target Support Files/CocoaAsyncSocket";
 			sourceTree = "<group>";
 		};
-		594EB0D46FDC37CDEBF5325736E9FFF3 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				2985EC5B9DAAAE8AFEC82BF644120B06 /* Domestica */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		6DCBD22DDC424416232DC7440956A5CC /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				3553ACB354B78440D2CD7D6A7F3E9DF6 /* Domestica.swift */,
-				C9D3EBFFFE735A83A8B8E3B519B52B36 /* Networking.swift */,
-			);
-			name = Classes;
-			path = Classes;
-			sourceTree = "<group>";
-		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				594EB0D46FDC37CDEBF5325736E9FFF3 /* Development Pods */,
+				C47B9C55DD05308D8DB1E2D652D4E880 /* Development Pods */,
 				E57D8BB42B7367E2EA1AB4BAF61E5D44 /* Frameworks */,
 				991819176034B11A99ECC53C250D06AD /* Pods */,
-				074976625E91A7276453A3DD160C40CE /* Products */,
-				0086BD39042D8E84CD61C3EADB8B9E69 /* Targets Support Files */,
+				ACA2DC8B6BD165CF5CE13ECB224C7D97 /* Products */,
+				BFF5EAC34A1B0A11E061769C65F84D7F /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -285,22 +228,87 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		9D8CC1DBEBBCA512A53988DDC9098A7E /* Pods-DomesticaReceiver */ = {
+		A18433D6C3FE6AB66D4E519731F2B090 /* Pods-HaroldSender */ = {
 			isa = PBXGroup;
 			children = (
-				3254FB1C0F96D5106C1BE5BCECB28466 /* Info.plist */,
-				D832AF4354F1124EC74EEEB38F8C5FC7 /* Pods-DomesticaReceiver.modulemap */,
-				717B71176891D4DE39B690B2033E1562 /* Pods-DomesticaReceiver-acknowledgements.markdown */,
-				7A729E5BD4E5209BEA96EF5D411B2002 /* Pods-DomesticaReceiver-acknowledgements.plist */,
-				406F91EE8D875B3CCFF45A39DD143A24 /* Pods-DomesticaReceiver-dummy.m */,
-				89836C2A53EEDCF4E23F059E2A8036AA /* Pods-DomesticaReceiver-frameworks.sh */,
-				103E8E6BE0E667003FAE451B3718B5DF /* Pods-DomesticaReceiver-resources.sh */,
-				9D45303F761A6C0270DBB3A469AD9F5E /* Pods-DomesticaReceiver-umbrella.h */,
-				B93B1F3A3237B6CBB332C0E1860AFDE6 /* Pods-DomesticaReceiver.debug.xcconfig */,
-				7AD28A3E69FFAE868B5A98CFFC636E69 /* Pods-DomesticaReceiver.release.xcconfig */,
+				B60B13CB1FAF321CF76531326DACD197 /* Info.plist */,
+				BE791913DDCE2EDB77D655031074F334 /* Pods-HaroldSender.modulemap */,
+				C6BF608B0BCACE517E004EAD53D52D5F /* Pods-HaroldSender-acknowledgements.markdown */,
+				BAC5AEC5DF2A8FECA6B5FEF3739D8078 /* Pods-HaroldSender-acknowledgements.plist */,
+				69355A1A7DA97F1A1F2105D29D00181A /* Pods-HaroldSender-dummy.m */,
+				4DEB0EE90767E86B29026267F406CF86 /* Pods-HaroldSender-frameworks.sh */,
+				5D29B0889247FF56753BD2E38C70EAFA /* Pods-HaroldSender-resources.sh */,
+				CCC8541E4A85CAEBD00A67D7CD8F76FC /* Pods-HaroldSender-umbrella.h */,
+				4D93AEE3C2D9392AEA4B33483C8D610B /* Pods-HaroldSender.debug.xcconfig */,
+				0120F7A8F470339C7165BC6AC9C68161 /* Pods-HaroldSender.release.xcconfig */,
 			);
-			name = "Pods-DomesticaReceiver";
-			path = "Target Support Files/Pods-DomesticaReceiver";
+			name = "Pods-HaroldSender";
+			path = "Target Support Files/Pods-HaroldSender";
+			sourceTree = "<group>";
+		};
+		ACA2DC8B6BD165CF5CE13ECB224C7D97 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				82D1423B8847AE0078B8EB3C4792022E /* CocoaAsyncSocket.framework */,
+				45F1F952732362F1CA511F92D3E6C22B /* Harold.framework */,
+				A51F91454880F7245258619FE1103706 /* Pods_HaroldReceiver.framework */,
+				778DE030D1E08CDD9331F0C65A577202 /* Pods_HaroldSender.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BFF5EAC34A1B0A11E061769C65F84D7F /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D8BAE30D114AE02AA49FEC01554F7A40 /* Pods-HaroldReceiver */,
+				A18433D6C3FE6AB66D4E519731F2B090 /* Pods-HaroldSender */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C47B9C55DD05308D8DB1E2D652D4E880 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F2515A312BF2F0BDF06B268E0057377E /* Harold */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		C8C6C2F37438EAF8EAF7BA10D5675203 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				8D5B6293B613C6FA36C1AF52228FD700 /* Harold.swift */,
+				F3380B06D21D36D49A2A519974AA4B30 /* Networking.swift */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		CBFB6BAC591851CFFB5D17154B41CF6D /* Swift */ = {
+			isa = PBXGroup;
+			children = (
+				C8C6C2F37438EAF8EAF7BA10D5675203 /* Classes */,
+			);
+			name = Swift;
+			path = Swift;
+			sourceTree = "<group>";
+		};
+		D8BAE30D114AE02AA49FEC01554F7A40 /* Pods-HaroldReceiver */ = {
+			isa = PBXGroup;
+			children = (
+				40E84BD95F4CE1C03C18176CA4F38C4A /* Info.plist */,
+				897CAFE86ACC3F3C40DA602E598D9614 /* Pods-HaroldReceiver.modulemap */,
+				60EA3B6F06C10D9516DB73CF811A94EA /* Pods-HaroldReceiver-acknowledgements.markdown */,
+				453C28731069D1BC1F966610CCFA1B62 /* Pods-HaroldReceiver-acknowledgements.plist */,
+				4EAC2F8EA1A77A09EA331AD78BC2FFFC /* Pods-HaroldReceiver-dummy.m */,
+				916E4818BC1C7C90A228A4D6196AEE20 /* Pods-HaroldReceiver-frameworks.sh */,
+				3E3A08156725FFBEB77559972642CE40 /* Pods-HaroldReceiver-resources.sh */,
+				26DD28AFA24A0EA92E96CA5D91AA45E1 /* Pods-HaroldReceiver-umbrella.h */,
+				B3E0868595D607768DA740F75AF1919D /* Pods-HaroldReceiver.debug.xcconfig */,
+				ED76B6BF5B15CD7CE574BE6BFF17054F /* Pods-HaroldReceiver.release.xcconfig */,
+			);
+			name = "Pods-HaroldReceiver";
+			path = "Target Support Files/Pods-HaroldReceiver";
 			sourceTree = "<group>";
 		};
 		E57D8BB42B7367E2EA1AB4BAF61E5D44 /* Frameworks */ = {
@@ -312,22 +320,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		EC5C76B17B081D66F807B173AE662F2E /* Pods-DomesticaSender */ = {
+		F2515A312BF2F0BDF06B268E0057377E /* Harold */ = {
 			isa = PBXGroup;
 			children = (
-				68029BF13BFEB910F3EE7D43BAF3ED37 /* Info.plist */,
-				1C3A1045C129A42B52AD04C89AC1F138 /* Pods-DomesticaSender.modulemap */,
-				83C687235751E3F30EA06FD3E19A6E39 /* Pods-DomesticaSender-acknowledgements.markdown */,
-				8372BFD514822C038F05E2920054FA0C /* Pods-DomesticaSender-acknowledgements.plist */,
-				C2AB37410D714F92C642369DF75F77F6 /* Pods-DomesticaSender-dummy.m */,
-				826C1FC0954401DD48BFB552502AE621 /* Pods-DomesticaSender-frameworks.sh */,
-				C3AF460FB64A889B254C4A5282CC827C /* Pods-DomesticaSender-resources.sh */,
-				F2B3CAE8CF6F7E404C014BF7AD798CCA /* Pods-DomesticaSender-umbrella.h */,
-				02E007A8E6D0EED921954C405B28F515 /* Pods-DomesticaSender.debug.xcconfig */,
-				6BC75CB7B1AC241BE6D6EE1167BAFEC6 /* Pods-DomesticaSender.release.xcconfig */,
+				115112443D4350736356B045A854D106 /* Support Files */,
+				CBFB6BAC591851CFFB5D17154B41CF6D /* Swift */,
 			);
-			name = "Pods-DomesticaSender";
-			path = "Target Support Files/Pods-DomesticaSender";
+			name = Harold;
+			path = ../../..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -343,50 +343,87 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3EDA8EEBD6FDE44248A3234ED08186F9 /* Headers */ = {
+		548CD9FA0F09B51880AC1BCA5BA08DD6 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8BD49B85C9EDA5FC34DE74298555C122 /* Domestica-umbrella.h in Headers */,
+				E196BEF1AB4CAF903B524880F01C8D8A /* Harold-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		41D87301CB6BF56B8AA4A0CFF548DD5E /* Headers */ = {
+		B8D3BE16D0C3C6CCA9F8288DA09C6D76 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CDEF9EEBA3C90ACACF52DDAE1AC38293 /* Pods-DomesticaReceiver-umbrella.h in Headers */,
+				0F252EF2D39939E256EC64901C4A12D7 /* Pods-HaroldReceiver-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7DFEAA400F694C1E90CAA1E6F0228E37 /* Headers */ = {
+		BE01CAB04123AD8956FF80E4D57201C2 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B4841E8C7F5BBC6F4E3A2E92092D9D9A /* Pods-DomesticaSender-umbrella.h in Headers */,
+				FA820A3663C36A3D4511E8F3C1470E09 /* Pods-HaroldSender-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		547BF98C8DC5DF7483529CD54FABB698 /* Pods-DomesticaSender */ = {
+		121990FA48FC28547009BFC2A7774B3C /* Pods-HaroldReceiver */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D7198746B136AAB07D02092289BB0442 /* Build configuration list for PBXNativeTarget "Pods-DomesticaSender" */;
+			buildConfigurationList = BF48C91208F0CF320F1CC710E91CCDD2 /* Build configuration list for PBXNativeTarget "Pods-HaroldReceiver" */;
 			buildPhases = (
-				FFD3C4B17B6E8D9A176241A54BA54602 /* Sources */,
-				2E766925E21CCDE6A574D5132D9E738D /* Frameworks */,
-				7DFEAA400F694C1E90CAA1E6F0228E37 /* Headers */,
+				B98887575E81D08726E462D3FB40FE12 /* Sources */,
+				1857B923467B0A035130D65A9A424C8A /* Frameworks */,
+				B8D3BE16D0C3C6CCA9F8288DA09C6D76 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				E3584E278C09731DEF196C825FDF429F /* PBXTargetDependency */,
-				7689742830CFBEFFB06BEC98512D385B /* PBXTargetDependency */,
+				B7A178100E9469DF181F7FCD59050CEF /* PBXTargetDependency */,
+				E7390277B08B028B9471DD78B18F682F /* PBXTargetDependency */,
 			);
-			name = "Pods-DomesticaSender";
-			productName = "Pods-DomesticaSender";
-			productReference = 7B74AEBDB7B8ECC50DA7F82EECE838B7 /* Pods_DomesticaSender.framework */;
+			name = "Pods-HaroldReceiver";
+			productName = "Pods-HaroldReceiver";
+			productReference = A51F91454880F7245258619FE1103706 /* Pods_HaroldReceiver.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9CFAD0E356B20531B6D51A0E03B695D7 /* Pods-HaroldSender */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00F4C53381225A2A90211281DE8BD1D7 /* Build configuration list for PBXNativeTarget "Pods-HaroldSender" */;
+			buildPhases = (
+				64A434BFA33ABA8FCC1EA2E4DAE85EBA /* Sources */,
+				276874ADD18FA2D76CE869AAA36D0B1E /* Frameworks */,
+				BE01CAB04123AD8956FF80E4D57201C2 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				68C53C9228A283BFA253788BC9E5C3B5 /* PBXTargetDependency */,
+				3BAB061EEE5682D564787F65BC50DC77 /* PBXTargetDependency */,
+			);
+			name = "Pods-HaroldSender";
+			productName = "Pods-HaroldSender";
+			productReference = 778DE030D1E08CDD9331F0C65A577202 /* Pods_HaroldSender.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9F6F6896E16639A17FB487A2FF34E857 /* Harold */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84ACF43B5F7734226CBFA646A7DC3205 /* Build configuration list for PBXNativeTarget "Harold" */;
+			buildPhases = (
+				83DEEA6E07A819929A569AAF447D1BBD /* Sources */,
+				757C85AEC145A747FE4AA96A7C90F0BE /* Frameworks */,
+				548CD9FA0F09B51880AC1BCA5BA08DD6 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				483FC354875F8867FD5D96F07969BEEB /* PBXTargetDependency */,
+			);
+			name = Harold;
+			productName = Harold;
+			productReference = 45F1F952732362F1CA511F92D3E6C22B /* Harold.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		AC0D2D2B4EE7C873431AB3502859CA60 /* CocoaAsyncSocket */ = {
@@ -403,44 +440,7 @@
 			);
 			name = CocoaAsyncSocket;
 			productName = CocoaAsyncSocket;
-			productReference = 92F582BF6029986E8F59D4F261942624 /* CocoaAsyncSocket.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		EB32E78E32CD5FECB50F2FBF2E7C433F /* Domestica */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 2617FF4ADF22E6F165214D879FE04C2C /* Build configuration list for PBXNativeTarget "Domestica" */;
-			buildPhases = (
-				AC0F4345998DCA1C45DC0136FB6D6B72 /* Sources */,
-				2C710FCF4C7AB1EB231B02380205D19E /* Frameworks */,
-				3EDA8EEBD6FDE44248A3234ED08186F9 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				AD70A8B315800BE5DBBC4FCE04C92BEC /* PBXTargetDependency */,
-			);
-			name = Domestica;
-			productName = Domestica;
-			productReference = C869D775D06DA83FAEA29D778BDC93F4 /* Domestica.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		F102A6A710D8F9824536DACDB45E8A41 /* Pods-DomesticaReceiver */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 5723D4A32BB5A01039FB3D3F9F3AC911 /* Build configuration list for PBXNativeTarget "Pods-DomesticaReceiver" */;
-			buildPhases = (
-				8A0414BF118B9F75CB46B01B53282992 /* Sources */,
-				7BE69A9A6317245175DB47751FFEE681 /* Frameworks */,
-				41D87301CB6BF56B8AA4A0CFF548DD5E /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				4785CC541B41A2726374589D60774447 /* PBXTargetDependency */,
-				C2DBF8F6B4B9C431FA38B8D4D2B39980 /* PBXTargetDependency */,
-			);
-			name = "Pods-DomesticaReceiver";
-			productName = "Pods-DomesticaReceiver";
-			productReference = E75483551F0FD981F423DC292ADDF733 /* Pods_DomesticaReceiver.framework */;
+			productReference = 82D1423B8847AE0078B8EB3C4792022E /* CocoaAsyncSocket.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -460,34 +460,42 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 074976625E91A7276453A3DD160C40CE /* Products */;
+			productRefGroup = ACA2DC8B6BD165CF5CE13ECB224C7D97 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				AC0D2D2B4EE7C873431AB3502859CA60 /* CocoaAsyncSocket */,
-				EB32E78E32CD5FECB50F2FBF2E7C433F /* Domestica */,
-				F102A6A710D8F9824536DACDB45E8A41 /* Pods-DomesticaReceiver */,
-				547BF98C8DC5DF7483529CD54FABB698 /* Pods-DomesticaSender */,
+				9F6F6896E16639A17FB487A2FF34E857 /* Harold */,
+				121990FA48FC28547009BFC2A7774B3C /* Pods-HaroldReceiver */,
+				9CFAD0E356B20531B6D51A0E03B695D7 /* Pods-HaroldSender */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		8A0414BF118B9F75CB46B01B53282992 /* Sources */ = {
+		64A434BFA33ABA8FCC1EA2E4DAE85EBA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				57DDB6EA848DBE50C25C899782304FDD /* Pods-DomesticaReceiver-dummy.m in Sources */,
+				77CF04325A35E840821BEFCB82DD02D3 /* Pods-HaroldSender-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AC0F4345998DCA1C45DC0136FB6D6B72 /* Sources */ = {
+		83DEEA6E07A819929A569AAF447D1BBD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CB8A4ED28746F60C9DFBAC1652771319 /* Domestica-dummy.m in Sources */,
-				1E7C2D4075DA37418FF4DD104EDA9219 /* Domestica.swift in Sources */,
-				B01CAC2D57915547EEA5D60C420903B3 /* Networking.swift in Sources */,
+				20AC6A6846B52F82CF18DCFEFFB10EF0 /* Harold-dummy.m in Sources */,
+				DECA51A46131C053EA97C5E4653CE99D /* Harold.swift in Sources */,
+				E15C49A7253F2F3A092ADD79DDD17A3B /* Networking.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B98887575E81D08726E462D3FB40FE12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EB8C23465DFF46BF5D9BF1AD059E420 /* Pods-HaroldReceiver-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -501,127 +509,45 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FFD3C4B17B6E8D9A176241A54BA54602 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B4AFA6C7A7B6D4F9CA894DA52125F0B8 /* Pods-DomesticaSender-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		4785CC541B41A2726374589D60774447 /* PBXTargetDependency */ = {
+		3BAB061EEE5682D564787F65BC50DC77 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Harold;
+			target = 9F6F6896E16639A17FB487A2FF34E857 /* Harold */;
+			targetProxy = EE6EC4A208FAA378356F3E6EC5A7AD29 /* PBXContainerItemProxy */;
+		};
+		483FC354875F8867FD5D96F07969BEEB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = CocoaAsyncSocket;
 			target = AC0D2D2B4EE7C873431AB3502859CA60 /* CocoaAsyncSocket */;
-			targetProxy = 1B7072B55A178ECA4FB67BA09964C5C6 /* PBXContainerItemProxy */;
+			targetProxy = 80BEE268AAF20CD37BF64BBD2E8BBED8 /* PBXContainerItemProxy */;
 		};
-		7689742830CFBEFFB06BEC98512D385B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Domestica;
-			target = EB32E78E32CD5FECB50F2FBF2E7C433F /* Domestica */;
-			targetProxy = D889077810BF69DB4BFC144993A592A1 /* PBXContainerItemProxy */;
-		};
-		AD70A8B315800BE5DBBC4FCE04C92BEC /* PBXTargetDependency */ = {
+		68C53C9228A283BFA253788BC9E5C3B5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = CocoaAsyncSocket;
 			target = AC0D2D2B4EE7C873431AB3502859CA60 /* CocoaAsyncSocket */;
-			targetProxy = 1961617BBF4D649562D1037DD06E2D2B /* PBXContainerItemProxy */;
+			targetProxy = D1CB366DB1662D5A4047766D9BFE182C /* PBXContainerItemProxy */;
 		};
-		C2DBF8F6B4B9C431FA38B8D4D2B39980 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Domestica;
-			target = EB32E78E32CD5FECB50F2FBF2E7C433F /* Domestica */;
-			targetProxy = 318C291E8B5481C326D75B4235FB818C /* PBXContainerItemProxy */;
-		};
-		E3584E278C09731DEF196C825FDF429F /* PBXTargetDependency */ = {
+		B7A178100E9469DF181F7FCD59050CEF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = CocoaAsyncSocket;
 			target = AC0D2D2B4EE7C873431AB3502859CA60 /* CocoaAsyncSocket */;
-			targetProxy = 040426D92A7FD0F883D458BA5888E456 /* PBXContainerItemProxy */;
+			targetProxy = 3E992D383B7D0EE1CA9CA2723A55432C /* PBXContainerItemProxy */;
+		};
+		E7390277B08B028B9471DD78B18F682F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Harold;
+			target = 9F6F6896E16639A17FB487A2FF34E857 /* Harold */;
+			targetProxy = DF94156F7D5ABD61D605E479FD8F168A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		15AD4B139209C4D6A8EC0467BF8DEFDC /* Debug */ = {
+		2FA3F01D4B772AD84E3D65FE9E0997E4 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B93B1F3A3237B6CBB332C0E1860AFDE6 /* Pods-DomesticaReceiver.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-DomesticaReceiver/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-DomesticaReceiver/Pods-DomesticaReceiver.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_DomesticaReceiver;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		4CBAD422D2F1238274E9369AF674ABBA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F76F353D97E26DDC7EB7F92E692F32D6 /* Domestica.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Domestica/Domestica-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Domestica/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Domestica/Domestica.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = Domestica;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		58AD32DEE1644EA4A898272C677678A8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7AD28A3E69FFAE868B5A98CFFC636E69 /* Pods-DomesticaReceiver.release.xcconfig */;
+			baseConfigurationReference = 0120F7A8F470339C7165BC6AC9C68161 /* Pods-HaroldSender.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -635,20 +561,55 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-DomesticaReceiver/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-HaroldSender/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-DomesticaReceiver/Pods-DomesticaReceiver.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-HaroldSender/Pods-HaroldSender.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_DomesticaReceiver;
+				PRODUCT_NAME = Pods_HaroldSender;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4430DF2DE6EA652BA29A669106448BB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C46D6CF7EC9B468C88BE69DCB6983E3 /* Harold.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Harold/Harold-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Harold/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Harold/Harold.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Harold;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -691,6 +652,41 @@
 			};
 			name = Debug;
 		};
+		7AD905CDE38C971031076434035B3AA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C46D6CF7EC9B468C88BE69DCB6983E3 /* Harold.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Harold/Harold-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Harold/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Harold/Harold.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Harold;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		7AEA80A9C79939CF720C7B48AB4986E4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = AEE3A3E21C4B978FE0BCEB9613DABBF6 /* CocoaAsyncSocket.xcconfig */;
@@ -718,6 +714,44 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		899DD341469BB45C9508B03D7D270279 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED76B6BF5B15CD7CE574BE6BFF17054F /* Pods-HaroldReceiver.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HaroldReceiver/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HaroldReceiver/Pods-HaroldReceiver.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_HaroldReceiver;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -774,9 +808,9 @@
 			};
 			name = Debug;
 		};
-		9DE3E1CF5B5CBA94AFB4AF3EA1EB0312 /* Debug */ = {
+		A14E5839D2ECADD0401B7ACCA354731B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 02E007A8E6D0EED921954C405B28F515 /* Pods-DomesticaSender.debug.xcconfig */;
+			baseConfigurationReference = 4D93AEE3C2D9392AEA4B33483C8D610B /* Pods-HaroldSender.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -790,18 +824,57 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-DomesticaSender/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-HaroldSender/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-DomesticaSender/Pods-DomesticaSender.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-HaroldSender/Pods-HaroldSender.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_DomesticaSender;
+				PRODUCT_NAME = Pods_HaroldSender;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BDB94C223603831317701FCBF81968DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3E0868595D607768DA740F75AF1919D /* Pods-HaroldReceiver.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HaroldReceiver/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HaroldReceiver/Pods-HaroldReceiver.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_HaroldReceiver;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
@@ -857,87 +930,14 @@
 			};
 			name = Release;
 		};
-		D01D7BCB8CE1F262C6FCD570080A5217 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F76F353D97E26DDC7EB7F92E692F32D6 /* Domestica.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Domestica/Domestica-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Domestica/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Domestica/Domestica.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = Domestica;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		F2BE61552FEEBD3338EB87259228B028 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6BC75CB7B1AC241BE6D6EE1167BAFEC6 /* Pods-DomesticaSender.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-DomesticaSender/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-DomesticaSender/Pods-DomesticaSender.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_DomesticaSender;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2617FF4ADF22E6F165214D879FE04C2C /* Build configuration list for PBXNativeTarget "Domestica" */ = {
+		00F4C53381225A2A90211281DE8BD1D7 /* Build configuration list for PBXNativeTarget "Pods-HaroldSender" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4CBAD422D2F1238274E9369AF674ABBA /* Debug */,
-				D01D7BCB8CE1F262C6FCD570080A5217 /* Release */,
+				A14E5839D2ECADD0401B7ACCA354731B /* Debug */,
+				2FA3F01D4B772AD84E3D65FE9E0997E4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -951,20 +951,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5723D4A32BB5A01039FB3D3F9F3AC911 /* Build configuration list for PBXNativeTarget "Pods-DomesticaReceiver" */ = {
+		84ACF43B5F7734226CBFA646A7DC3205 /* Build configuration list for PBXNativeTarget "Harold" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				15AD4B139209C4D6A8EC0467BF8DEFDC /* Debug */,
-				58AD32DEE1644EA4A898272C677678A8 /* Release */,
+				7AD905CDE38C971031076434035B3AA0 /* Debug */,
+				4430DF2DE6EA652BA29A669106448BB8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D7198746B136AAB07D02092289BB0442 /* Build configuration list for PBXNativeTarget "Pods-DomesticaSender" */ = {
+		BF48C91208F0CF320F1CC710E91CCDD2 /* Build configuration list for PBXNativeTarget "Pods-HaroldReceiver" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9DE3E1CF5B5CBA94AFB4AF3EA1EB0312 /* Debug */,
-				F2BE61552FEEBD3338EB87259228B028 /* Release */,
+				BDB94C223603831317701FCBF81968DF /* Debug */,
+				899DD341469BB45C9508B03D7D270279 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

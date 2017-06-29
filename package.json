@@ -1,24 +1,26 @@
 {
-  "name": "domestica",
+  "name": "harold",
   "version": "0.2.2",
   "description": "A UDP-layer discoverabiliy tool between Swift and Node.js",
-  "main": "index.js",
+  "main": "Node/harold.js",
+  "files": [
+    "Node/*.js"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lacyrhoades/domestica.git"
+    "url": "git+https://github.com/lacyrhoades/harold.git"
   },
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/lacyrhoades/domestica/issues"
+    "url": "https://github.com/lacyrhoades/harold/issues"
   },
-  "homepage": "https://github.com/lacyrhoades/domestica#readme",
+  "homepage": "https://github.com/lacyrhoades/harold#readme",
   "dependencies": {
     "dgram": "^1.0.1",
-    "netmask": "^1.0.6",
     "os": "^0.1.1"
   }
 }

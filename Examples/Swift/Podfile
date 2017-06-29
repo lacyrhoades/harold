@@ -2,12 +2,12 @@ use_frameworks!
 platform :ios, '10.0'
 swift_version = '3.0'
 
-target 'DomesticaSender' do
-pod 'Domestica', :path => '../../'
+target 'HaroldSender' do
+pod 'Harold', :path => '../../'
 end
 
-target 'DomesticaReceiver' do
-pod 'Domestica', :path => '../../'
+target 'HaroldReceiver' do
+pod 'Harold', :path => '../../'
 end
 
 post_install do |installer|

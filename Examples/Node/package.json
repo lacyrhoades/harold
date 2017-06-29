@@ -1,7 +1,7 @@
 {
-  "name": "domestica-example",
+  "name": "harold-example",
   "version": "1.0.0",
-  "description": "Demonstration of domestica, a UDP-layer discoverability tool for Swift and Node.js",
+  "description": "Demonstration of harold, a UDP-layer discoverability tool for Swift and Node.js",
   "main": "listen.js",
   "scripts": {
     "send": "node send.js",
@@ -9,8 +9,8 @@
   },
   "author": "Lacy Rhoades",
   "license": "MIT",
-  "repository": "https://github.com/lacyrhoades/domestica",
+  "repository": "https://github.com/lacyrhoades/harold",
   "dependencies": {
-    "domestica": "file:../../Node"
+    "harold": "file:../../"
   }
 }

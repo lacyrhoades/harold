@@ -1,19 +1,19 @@
 PODS:
   - CocoaAsyncSocket (7.6.1)
-  - Domestica (0.2.2):
+  - Harold (0.2.2):
     - CocoaAsyncSocket
 
 DEPENDENCIES:
-  - Domestica (from `../../`)
+  - Harold (from `../../`)
 
 EXTERNAL SOURCES:
-  Domestica:
+  Harold:
     :path: ../../
 
 SPEC CHECKSUMS:
   CocoaAsyncSocket: 7eadd3f59e1a6c84e2aefc93e9ff7b55156fe174
-  Domestica: d7d7fb04e7104b21351a23a8ab5366cb84e95195
+  Harold: 6c27f3122c30e52eb92862856d5bb14b479edb66
 
-PODFILE CHECKSUM: e06fbd93951bd496f451d0a4621d521ad8ec559b
+PODFILE CHECKSUM: 429d34e52425ce64c0dee8d2024dbdde07295b92
 
 COCOAPODS: 1.3.0.beta.2
