@@ -16,7 +16,7 @@ var harold = function Harold(port) {
   this.boundAddresses = [];
 }
 
-harold.prototype.listen = function() {
+harold.prototype.listen = function(completion) {
   var self = this
 
   if (self.listeningSocket) {
@@ -26,14 +26,14 @@ harold.prototype.listen = function() {
   self.listeningSocket = dgram.createSocket({type: "udp4", reuseAddr: true});
 
   self.listeningSocket.on('message', (msg, rinfo) => {
-    console.log(`socket received: ${msg} from ${rinfo.address}:${rinfo.port}`);
+    completion(rinfo.address, msg)
   });
 
   self.listeningSocket.bind(self.port, ALL_INTERFACES_ADDR, function() {
     self.listeningSocket.setBroadcast(true);
   });
 
-  console.log(`Listening to: ${ALL_INTERFACES_ADDR}:${self.port}`);
+  // console.log(`Listening to: ${ALL_INTERFACES_ADDR}:${self.port}`);
 }
 
 harold.prototype.setupBroadcasting = function() {
@@ -59,7 +59,7 @@ harold.prototype.bindToAddress = function(address) {
 
   self.boundAddresses.push(address);
   var socket = dgram.createSocket({type: "udp4", reuseAddr: true});
-  console.log(`Binding to ${address}`);
+  // console.log(`Binding to ${address}`);
   socket.bind(self.port, address, function() {
     socket.setBroadcast(true);
   });

@@ -20,7 +20,8 @@ public protocol HaroldLoggingDelegate: class {
 public class Harold: NSObject {
     public convenience init(port: Int) {
         self.init()
-        self.broadcastPort = UInt16(port)
+        self.listenPort = UInt16(port)
+        self.broadcastPort = UInt16(port + 1)
     }
     
     public weak var loggingDelegate: HaroldLoggingDelegate?
@@ -40,9 +41,9 @@ public class Harold: NSObject {
     private var listenSocket : GCDAsyncUdpSocket?
     private var broadcastSocket : GCDAsyncUdpSocket?
     
-    fileprivate var broadcastPort: UInt16 = UInt16(3001)
+    fileprivate var listenPort: UInt16 = UInt16(4545)
+    fileprivate var broadcastPort: UInt16 = UInt16(4546)
     fileprivate var broadcastAddress: String = "0.0.0.0"
-    fileprivate var groupAddress: String = "255.255.255.255"
     
     public func startScanning() {
         if listenSocket != nil {
@@ -61,7 +62,7 @@ public class Harold: NSObject {
         listenSocket?.setIPv4Enabled(true)
         
         do {
-            var address = sockaddr_in(port: self.broadcastPort).copyAsSockAddr()
+            var address = sockaddr_in(port: self.listenPort).copyAsSockAddr()
             let data = Data(bytes: &address, count: Int(address.sa_len))
             
             /*
@@ -128,7 +129,7 @@ public class Harold: NSObject {
         }
         
         if let data = message.data(using: .utf8) {
-            broadcastSocket?.send(data, toHost: "255.255.255.255", port: self.broadcastPort, withTimeout: 1.0, tag: 1)
+            broadcastSocket?.send(data, toHost: "255.255.255.255", port: self.listenPort, withTimeout: 1.0, tag: 1)
             self.log("Sent message: ".appending(message))
         } else {
             self.log("Trouble creating data from String: ".appending(message))
@@ -182,7 +183,7 @@ extension Harold: GCDAsyncUdpSocketDelegate {
     }
     
     func log(_ message: Any) {
-        let message = String(self.broadcastPort).appending(" - ").appending(String(describing: message))
+        let message = String(self.listenPort).appending(" - ").appending(String(describing: message))
         if let delegate = self.loggingDelegate {
             delegate.logFromHarold(message)
         } else {

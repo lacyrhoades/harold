@@ -17,7 +17,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
-        self.scanner = Harold(port: 4545)
+        self.scanner = Harold()
         
         if let mainMenu = self.window?.rootViewController as? ViewController {
             self.scanner?.loggingDelegate = mainMenu
