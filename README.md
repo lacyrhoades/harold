@@ -7,10 +7,7 @@ UDP-based discoverability tool. Say hello to any device on your subnet, without 
 ```node
 var broadcaster = require('harold')()
 broadcaster.setupBroadcasting()
-
-setInterval(function() {
-	broadcaster.broadcast("Hello!!") // goes to everyone on the subnet
-}, 1000)
+broadcaster.broadcast("Hello!!") // goes to everyone on the subnet
 ```
 
 ## Get messages in Swift
@@ -20,8 +17,8 @@ self.scanner = Harold()
 scanner?.addListener(self)
 
 func haroldReceived(fromHost host: String, message: String) {
-    print(host) // 192.168.1...
-    print(message) // "Hello!!"
+  print(host) // 192.168.1...
+  print(message) // "Hello!!"
 }
 ```
     
@@ -29,6 +26,7 @@ func haroldReceived(fromHost host: String, message: String) {
 
 ```Swift
 var broadcaster = Harold()
+broadcaster.setupBroadcast()
 broadcaster.broadcast(message: "Hello!!")
 ```
 
@@ -37,7 +35,7 @@ broadcaster.broadcast(message: "Hello!!")
 ```node
 var listener = new require('harold')()
 listener.listen(function (host, message) {
-	console.log(host)
-	console.log(message)
+  console.log(host)
+  console.log(message)
 })
 ```
