@@ -1,6 +1,6 @@
 # Harold
 
-### UDP-based discoverability tool. Say hello to all devices on your subnet, without knowing its address.
+### UDP-based discoverability tool. Say hello to all devices on your subnet, quickly and without having to find or type in IP addresses.
 
 * Easy UDP messages: Send fast broadcasts to all local clients with a string body. This string message body could be anything; JSON, for example, or it could just be "Hello". The message has to be under 64k in length. The recipient gets the sender's IP for free, so don't bother including that
 * Zero configuration integrations: When a device comes on WiFi (i.e. iPad, Raspberry Pi, etc.) it will be assigned an address. Typically a step in setting up a device to work with some other device locally will be to manually enter the IP address somewhere. With harold you can simply advertise availability, and the recipient can initiate a two-way conversation.
