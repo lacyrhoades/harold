@@ -42,7 +42,18 @@ broadcaster.broadcast(message: "Hello!!")
 ```node
 var listener = new require('harold')()
 listener.listen(function (host, message) {
-  console.log(host)
-  console.log(message)
+  console.log(host)      // 10.0.1.2 etc
+  console.log(message)   // "Hello!!"
 })
+```
+
+or
+
+```node
+var listener = new require('harold')()
+listener.on('message', function (host, message) {
+  console.log(host)      // 10.0.1.2 etc
+  console.log(message)   // "Hello!!"
+})
+listener.listen()
 ```
