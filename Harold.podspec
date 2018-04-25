@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Harold'
-  s.version          = '0.2.2'
+  s.version          = '0.3'
   s.summary          = 'Simple local network discoverability layer for Swift and Node.js'
 
 # This description is used to generate tags and improve search results.
@@ -28,7 +28,7 @@ automatically, without manually configuring connection information.
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Lacy Rhoades' => 'lacyrhoades@gmail.com' }
   s.source           = { :git => 'https://github.com/lacyrhoades/harold.git', :tag => s.version.to_s }
-  s.social_media_url = 'https://twitter.com/lacyrhoades'
+  s.social_media_url = 'https://github.com/lacyrhoades'
 
   s.ios.deployment_target = '10.0'
 

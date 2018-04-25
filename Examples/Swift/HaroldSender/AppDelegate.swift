@@ -39,14 +39,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         return true
     }
     
-    func didTapDown() {
+    @objc func didTapDown() {
         let message = "Sender did tapDown"
         print(message)
         self.broadcaster?.broadcast(message: message)
         self.mainMenu?.updateUI(withString: message)
     }
     
-    func didTapUp() {
+    @objc func didTapUp() {
         let message = "Sender did tapUp"
         print(message)
         self.broadcaster?.broadcast(message: message)

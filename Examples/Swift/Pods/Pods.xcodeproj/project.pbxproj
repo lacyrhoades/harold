@@ -7,27 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0F252EF2D39939E256EC64901C4A12D7 /* Pods-HaroldReceiver-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 26DD28AFA24A0EA92E96CA5D91AA45E1 /* Pods-HaroldReceiver-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0F252EF2D39939E256EC64901C4A12D7 /* Pods-HaroldReceiver-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A26372109F69B1D950BB3D72E3BBD989 /* Pods-HaroldReceiver-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		15ADEBF53D83825D7CECDB49A27B9A6B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18B811B7AE0E054C1E1A26521285653C /* Foundation.framework */; };
-		20AC6A6846B52F82CF18DCFEFFB10EF0 /* Harold-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C989FE25C38A039E90E69358F821BA86 /* Harold-dummy.m */; };
 		24F1E42C96CD4BD4D079ED504C2618F5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18B811B7AE0E054C1E1A26521285653C /* Foundation.framework */; };
 		2DAA98C8614A6DED26CE8712531AE1FC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18B811B7AE0E054C1E1A26521285653C /* Foundation.framework */; };
-		77CF04325A35E840821BEFCB82DD02D3 /* Pods-HaroldSender-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 69355A1A7DA97F1A1F2105D29D00181A /* Pods-HaroldSender-dummy.m */; };
-		7E4F0161B4D135DA3A0763619A56C2F5 /* CocoaAsyncSocket-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FA669EA9DB68616A6ECA64CA78D52EAC /* CocoaAsyncSocket-dummy.m */; };
+		2E17164BDE2B2F5EE52927592479A28A /* Harold-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 706D1A4B01788BDE1521603010024208 /* Harold-dummy.m */; };
+		77CF04325A35E840821BEFCB82DD02D3 /* Pods-HaroldSender-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DFCDED7B29E6767742DA4DCAB8213DA /* Pods-HaroldSender-dummy.m */; };
+		7E4F0161B4D135DA3A0763619A56C2F5 /* CocoaAsyncSocket-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A150BFDFB60879728DB1958A240D4383 /* CocoaAsyncSocket-dummy.m */; };
 		8480493AEC1C7AF1B5C0E0BF2F70FB44 /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F9509718CFCC3D81230AA7CF02478B7 /* GCDAsyncSocket.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		9EB8C23465DFF46BF5D9BF1AD059E420 /* Pods-HaroldReceiver-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EAC2F8EA1A77A09EA331AD78BC2FFFC /* Pods-HaroldReceiver-dummy.m */; };
+		9D3979E2919988FC7F4468F276DE2A85 /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB0490DAC8AF4102541AABA2CFF6758 /* Networking.swift */; };
+		9EB8C23465DFF46BF5D9BF1AD059E420 /* Pods-HaroldReceiver-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DEE35676609CE5A2711AC66D7C34157D /* Pods-HaroldReceiver-dummy.m */; };
 		A32C9120B1F9BFCF4C9B218592DA1D55 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18B811B7AE0E054C1E1A26521285653C /* Foundation.framework */; };
 		A882891E5A89CADF96C2CA79606409CA /* GCDAsyncSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = D82B81E88C7D98976B018DB4903B5D0C /* GCDAsyncSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AC7DC2A21843CD99040DCD79FF3BE91B /* GCDAsyncUdpSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 30CCCF41576100268BFA48C3EED9517C /* GCDAsyncUdpSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AEE9644DA0EFCF945438E125BA4F0724 /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 9235AEFD042C8D96AF4B4AA61E18C420 /* GCDAsyncUdpSocket.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		B688B80E8B12B7F6988B29DC592DA94D /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A7E85CD06FB5B7EAC4FAD953117F2D2 /* Security.framework */; };
+		C8F586AB53723EF70E473F14F6302E16 /* Harold.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028BBAA918F72B9842F0FFC1C706D5CD /* Harold.swift */; };
 		D01B2EBC1AB52980422F5A831BBCE3F4 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F18CCAEB371EC97E5B9FA432AB0D5F33 /* CFNetwork.framework */; };
-		DECA51A46131C053EA97C5E4653CE99D /* Harold.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5B6293B613C6FA36C1AF52228FD700 /* Harold.swift */; };
-		E15C49A7253F2F3A092ADD79DDD17A3B /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3380B06D21D36D49A2A519974AA4B30 /* Networking.swift */; };
-		E196BEF1AB4CAF903B524880F01C8D8A /* Harold-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 87C79B49E7854867FC7EE0456FDAEBA0 /* Harold-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E4230DB0D114C94B081018C1AC1E9972 /* CocoaAsyncSocket-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A8A7C0B72CB1BFEC20A42E9E5B3E1A5D /* CocoaAsyncSocket-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E196BEF1AB4CAF903B524880F01C8D8A /* Harold-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7934683E0856869CBCE26C9DCDDC0D68 /* Harold-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E4230DB0D114C94B081018C1AC1E9972 /* CocoaAsyncSocket-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AF8C213E138128F7803201DCD578F6D0 /* CocoaAsyncSocket-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F0953FF119872039FD99511935FCCF3F /* CocoaAsyncSocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91BA6F6CCD385509DC9FF3B1ACE3E309 /* CocoaAsyncSocket.framework */; };
-		FA820A3663C36A3D4511E8F3C1470E09 /* Pods-HaroldSender-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CCC8541E4A85CAEBD00A67D7CD8F76FC /* Pods-HaroldSender-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FA820A3663C36A3D4511E8F3C1470E09 /* Pods-HaroldSender-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3144AD35E921C2F082BE1F6BC5602510 /* Pods-HaroldSender-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,53 +69,56 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0120F7A8F470339C7165BC6AC9C68161 /* Pods-HaroldSender.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HaroldSender.release.xcconfig"; sourceTree = "<group>"; };
-		024FAD3A9561D2F4CB106D15D9557461 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		028BBAA918F72B9842F0FFC1C706D5CD /* Harold.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Harold.swift; path = Swift/Classes/Harold.swift; sourceTree = "<group>"; };
+		02F71D45E247D97315F9A1D7F8F5613C /* Pods-HaroldSender-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HaroldSender-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0469EC467755C444DC684A90770240B4 /* CocoaAsyncSocket.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CocoaAsyncSocket.xcconfig; sourceTree = "<group>"; };
+		074D05D031AFA56351848952B1F37DDD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1477E0F1F82BC55DEFAB23C816EA6172 /* Pods-HaroldReceiver-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HaroldReceiver-resources.sh"; sourceTree = "<group>"; };
 		18B811B7AE0E054C1E1A26521285653C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		26DD28AFA24A0EA92E96CA5D91AA45E1 /* Pods-HaroldReceiver-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HaroldReceiver-umbrella.h"; sourceTree = "<group>"; };
+		26446C934AC5390532FB7A431359FC7A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		30CCCF41576100268BFA48C3EED9517C /* GCDAsyncUdpSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDAsyncUdpSocket.h; path = Source/GCD/GCDAsyncUdpSocket.h; sourceTree = "<group>"; };
-		3E3A08156725FFBEB77559972642CE40 /* Pods-HaroldReceiver-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HaroldReceiver-resources.sh"; sourceTree = "<group>"; };
-		40E84BD95F4CE1C03C18176CA4F38C4A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		453C28731069D1BC1F966610CCFA1B62 /* Pods-HaroldReceiver-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HaroldReceiver-acknowledgements.plist"; sourceTree = "<group>"; };
+		3144AD35E921C2F082BE1F6BC5602510 /* Pods-HaroldSender-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HaroldSender-umbrella.h"; sourceTree = "<group>"; };
+		330814B3C2DDA66B814375BBD80FEBE6 /* CocoaAsyncSocket.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CocoaAsyncSocket.modulemap; sourceTree = "<group>"; };
 		45F1F952732362F1CA511F92D3E6C22B /* Harold.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Harold.framework; path = Harold.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4D93AEE3C2D9392AEA4B33483C8D610B /* Pods-HaroldSender.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HaroldSender.debug.xcconfig"; sourceTree = "<group>"; };
-		4DEB0EE90767E86B29026267F406CF86 /* Pods-HaroldSender-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HaroldSender-frameworks.sh"; sourceTree = "<group>"; };
-		4EAC2F8EA1A77A09EA331AD78BC2FFFC /* Pods-HaroldReceiver-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HaroldReceiver-dummy.m"; sourceTree = "<group>"; };
-		56387DA55BBF9D5729BB7A1C311C2894 /* CocoaAsyncSocket.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = CocoaAsyncSocket.modulemap; sourceTree = "<group>"; };
-		59F03CF7820AED90B3D4B60EED1249E0 /* Harold.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Harold.modulemap; sourceTree = "<group>"; };
+		49AB81D3890885A48F5384CB59C44A56 /* Pods-HaroldSender.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HaroldSender.release.xcconfig"; sourceTree = "<group>"; };
+		4CF06B7B01C7A7427784F46A3536AA3E /* Pods-HaroldSender-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HaroldSender-frameworks.sh"; sourceTree = "<group>"; };
+		51AA6868B85EF4F1A8F7D938FB0666BE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		5A7E85CD06FB5B7EAC4FAD953117F2D2 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
-		5D29B0889247FF56753BD2E38C70EAFA /* Pods-HaroldSender-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HaroldSender-resources.sh"; sourceTree = "<group>"; };
-		601E37EDFF15F9E763332F8ED114AF13 /* CocoaAsyncSocket-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CocoaAsyncSocket-prefix.pch"; sourceTree = "<group>"; };
-		60EA3B6F06C10D9516DB73CF811A94EA /* Pods-HaroldReceiver-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HaroldReceiver-acknowledgements.markdown"; sourceTree = "<group>"; };
-		69355A1A7DA97F1A1F2105D29D00181A /* Pods-HaroldSender-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HaroldSender-dummy.m"; sourceTree = "<group>"; };
+		5DFCDED7B29E6767742DA4DCAB8213DA /* Pods-HaroldSender-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HaroldSender-dummy.m"; sourceTree = "<group>"; };
+		6219FCF669DD1A5703ECB0AEC7F3718C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		664B95683209EF712B9CAD3A6958D0EF /* Pods-HaroldReceiver.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HaroldReceiver.debug.xcconfig"; sourceTree = "<group>"; };
+		668AE44D2B13CDECC89641ACA89ED263 /* Harold.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = Harold.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		6E550F55342769EBBC4667E36DF9EAC9 /* Harold.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Harold.xcconfig; sourceTree = "<group>"; };
+		6F51E7FB4EEC2C2123106FB7EB2BCBEB /* Pods-HaroldSender-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HaroldSender-resources.sh"; sourceTree = "<group>"; };
+		706D1A4B01788BDE1521603010024208 /* Harold-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Harold-dummy.m"; sourceTree = "<group>"; };
 		778DE030D1E08CDD9331F0C65A577202 /* Pods_HaroldSender.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HaroldSender.framework; path = "Pods-HaroldSender.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7934683E0856869CBCE26C9DCDDC0D68 /* Harold-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Harold-umbrella.h"; sourceTree = "<group>"; };
 		82D1423B8847AE0078B8EB3C4792022E /* CocoaAsyncSocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CocoaAsyncSocket.framework; path = CocoaAsyncSocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		875D4B8DD9279F3DE72B660C46D38EE9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		87C79B49E7854867FC7EE0456FDAEBA0 /* Harold-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Harold-umbrella.h"; sourceTree = "<group>"; };
-		897CAFE86ACC3F3C40DA602E598D9614 /* Pods-HaroldReceiver.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-HaroldReceiver.modulemap"; sourceTree = "<group>"; };
-		8C46D6CF7EC9B468C88BE69DCB6983E3 /* Harold.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Harold.xcconfig; sourceTree = "<group>"; };
-		8D5B6293B613C6FA36C1AF52228FD700 /* Harold.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Harold.swift; sourceTree = "<group>"; };
+		873691733D701782B340E4A9B75377BE /* Pods-HaroldSender.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HaroldSender.debug.xcconfig"; sourceTree = "<group>"; };
 		8F9509718CFCC3D81230AA7CF02478B7 /* GCDAsyncSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDAsyncSocket.m; path = Source/GCD/GCDAsyncSocket.m; sourceTree = "<group>"; };
-		916E4818BC1C7C90A228A4D6196AEE20 /* Pods-HaroldReceiver-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HaroldReceiver-frameworks.sh"; sourceTree = "<group>"; };
 		91BA6F6CCD385509DC9FF3B1ACE3E309 /* CocoaAsyncSocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CocoaAsyncSocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9235AEFD042C8D96AF4B4AA61E18C420 /* GCDAsyncUdpSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDAsyncUdpSocket.m; path = Source/GCD/GCDAsyncUdpSocket.m; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F2FB64E1E781B6C8E1BE19375769326 /* Harold-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Harold-prefix.pch"; sourceTree = "<group>"; };
+		A150BFDFB60879728DB1958A240D4383 /* CocoaAsyncSocket-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CocoaAsyncSocket-dummy.m"; sourceTree = "<group>"; };
+		A26372109F69B1D950BB3D72E3BBD989 /* Pods-HaroldReceiver-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HaroldReceiver-umbrella.h"; sourceTree = "<group>"; };
 		A51F91454880F7245258619FE1103706 /* Pods_HaroldReceiver.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HaroldReceiver.framework; path = "Pods-HaroldReceiver.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A8A7C0B72CB1BFEC20A42E9E5B3E1A5D /* CocoaAsyncSocket-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CocoaAsyncSocket-umbrella.h"; sourceTree = "<group>"; };
-		AEE3A3E21C4B978FE0BCEB9613DABBF6 /* CocoaAsyncSocket.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CocoaAsyncSocket.xcconfig; sourceTree = "<group>"; };
-		B3E0868595D607768DA740F75AF1919D /* Pods-HaroldReceiver.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HaroldReceiver.debug.xcconfig"; sourceTree = "<group>"; };
-		B60B13CB1FAF321CF76531326DACD197 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BAC5AEC5DF2A8FECA6B5FEF3739D8078 /* Pods-HaroldSender-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HaroldSender-acknowledgements.plist"; sourceTree = "<group>"; };
-		BE791913DDCE2EDB77D655031074F334 /* Pods-HaroldSender.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-HaroldSender.modulemap"; sourceTree = "<group>"; };
-		C6BF608B0BCACE517E004EAD53D52D5F /* Pods-HaroldSender-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HaroldSender-acknowledgements.markdown"; sourceTree = "<group>"; };
-		C989FE25C38A039E90E69358F821BA86 /* Harold-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Harold-dummy.m"; sourceTree = "<group>"; };
-		CCC8541E4A85CAEBD00A67D7CD8F76FC /* Pods-HaroldSender-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HaroldSender-umbrella.h"; sourceTree = "<group>"; };
+		ADBB620EEF6AC58534EB57ED5215BAE1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		AF8C213E138128F7803201DCD578F6D0 /* CocoaAsyncSocket-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CocoaAsyncSocket-umbrella.h"; sourceTree = "<group>"; };
+		BAD2177EF86E8E0FF3A193263285AD44 /* Pods-HaroldSender-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HaroldSender-acknowledgements.plist"; sourceTree = "<group>"; };
+		C19649FADB073206ABFAB8DAF5CF7A13 /* Pods-HaroldReceiver-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HaroldReceiver-frameworks.sh"; sourceTree = "<group>"; };
+		C610E2F88F467A77D119BFB956C486BC /* Pods-HaroldReceiver.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HaroldReceiver.release.xcconfig"; sourceTree = "<group>"; };
+		CE60671400A31A98009D374A743B8ECE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D82B81E88C7D98976B018DB4903B5D0C /* GCDAsyncSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDAsyncSocket.h; path = Source/GCD/GCDAsyncSocket.h; sourceTree = "<group>"; };
-		E5ECFAEB30E1D71A73DFA464DC14DB0B /* Harold-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Harold-prefix.pch"; sourceTree = "<group>"; };
-		ED76B6BF5B15CD7CE574BE6BFF17054F /* Pods-HaroldReceiver.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HaroldReceiver.release.xcconfig"; sourceTree = "<group>"; };
+		D89F3CC405089A408C09EEE5C343ACC7 /* Pods-HaroldReceiver.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HaroldReceiver.modulemap"; sourceTree = "<group>"; };
+		DBB4618093AAE27F8545419557500779 /* Pods-HaroldReceiver-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HaroldReceiver-acknowledgements.plist"; sourceTree = "<group>"; };
+		DEE35676609CE5A2711AC66D7C34157D /* Pods-HaroldReceiver-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HaroldReceiver-dummy.m"; sourceTree = "<group>"; };
+		E02E48CADB023978FF0B05435C7F22F0 /* Pods-HaroldSender.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HaroldSender.modulemap"; sourceTree = "<group>"; };
+		E6C5919021AC2DC8D29CC8C89A8E20F1 /* CocoaAsyncSocket-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CocoaAsyncSocket-prefix.pch"; sourceTree = "<group>"; };
+		EFB0490DAC8AF4102541AABA2CFF6758 /* Networking.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Networking.swift; path = Swift/Classes/Networking.swift; sourceTree = "<group>"; };
 		F18CCAEB371EC97E5B9FA432AB0D5F33 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
-		F3380B06D21D36D49A2A519974AA4B30 /* Networking.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
-		FA669EA9DB68616A6ECA64CA78D52EAC /* CocoaAsyncSocket-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CocoaAsyncSocket-dummy.m"; sourceTree = "<group>"; };
+		F947D617FDB1552A850CE329488AF9B4 /* Harold.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Harold.modulemap; sourceTree = "<group>"; };
+		FE3EA6AA04D28EE88BF1979B077651D7 /* Pods-HaroldReceiver-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HaroldReceiver-acknowledgements.markdown"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,18 +160,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		115112443D4350736356B045A854D106 /* Support Files */ = {
+		087CBBD4EA8714024690A149059CC836 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				59F03CF7820AED90B3D4B60EED1249E0 /* Harold.modulemap */,
-				8C46D6CF7EC9B468C88BE69DCB6983E3 /* Harold.xcconfig */,
-				C989FE25C38A039E90E69358F821BA86 /* Harold-dummy.m */,
-				E5ECFAEB30E1D71A73DFA464DC14DB0B /* Harold-prefix.pch */,
-				87C79B49E7854867FC7EE0456FDAEBA0 /* Harold-umbrella.h */,
-				875D4B8DD9279F3DE72B660C46D38EE9 /* Info.plist */,
+				668AE44D2B13CDECC89641ACA89ED263 /* Harold.podspec */,
+				ADBB620EEF6AC58534EB57ED5215BAE1 /* LICENSE */,
+				51AA6868B85EF4F1A8F7D938FB0666BE /* README.md */,
 			);
-			name = "Support Files";
-			path = "Examples/Swift/Pods/Target Support Files/Harold";
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		2130BB5BF3DC0A13DE43ECBACE0C8DBC /* Pods-HaroldReceiver */ = {
+			isa = PBXGroup;
+			children = (
+				074D05D031AFA56351848952B1F37DDD /* Info.plist */,
+				D89F3CC405089A408C09EEE5C343ACC7 /* Pods-HaroldReceiver.modulemap */,
+				FE3EA6AA04D28EE88BF1979B077651D7 /* Pods-HaroldReceiver-acknowledgements.markdown */,
+				DBB4618093AAE27F8545419557500779 /* Pods-HaroldReceiver-acknowledgements.plist */,
+				DEE35676609CE5A2711AC66D7C34157D /* Pods-HaroldReceiver-dummy.m */,
+				C19649FADB073206ABFAB8DAF5CF7A13 /* Pods-HaroldReceiver-frameworks.sh */,
+				1477E0F1F82BC55DEFAB23C816EA6172 /* Pods-HaroldReceiver-resources.sh */,
+				A26372109F69B1D950BB3D72E3BBD989 /* Pods-HaroldReceiver-umbrella.h */,
+				664B95683209EF712B9CAD3A6958D0EF /* Pods-HaroldReceiver.debug.xcconfig */,
+				C610E2F88F467A77D119BFB956C486BC /* Pods-HaroldReceiver.release.xcconfig */,
+			);
+			name = "Pods-HaroldReceiver";
+			path = "Target Support Files/Pods-HaroldReceiver";
 			sourceTree = "<group>";
 		};
 		2B933D4B764323E14C9F306E59BA9E9E /* iOS */ = {
@@ -181,30 +198,38 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		57B648335473190C3B0747F8DB761F76 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				56387DA55BBF9D5729BB7A1C311C2894 /* CocoaAsyncSocket.modulemap */,
-				AEE3A3E21C4B978FE0BCEB9613DABBF6 /* CocoaAsyncSocket.xcconfig */,
-				FA669EA9DB68616A6ECA64CA78D52EAC /* CocoaAsyncSocket-dummy.m */,
-				601E37EDFF15F9E763332F8ED114AF13 /* CocoaAsyncSocket-prefix.pch */,
-				A8A7C0B72CB1BFEC20A42E9E5B3E1A5D /* CocoaAsyncSocket-umbrella.h */,
-				024FAD3A9561D2F4CB106D15D9557461 /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/CocoaAsyncSocket";
-			sourceTree = "<group>";
-		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				C47B9C55DD05308D8DB1E2D652D4E880 /* Development Pods */,
+				95D6A9F20AF9DDBB51E7562091673E49 /* Development Pods */,
 				E57D8BB42B7367E2EA1AB4BAF61E5D44 /* Frameworks */,
 				991819176034B11A99ECC53C250D06AD /* Pods */,
 				ACA2DC8B6BD165CF5CE13ECB224C7D97 /* Products */,
 				BFF5EAC34A1B0A11E061769C65F84D7F /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		81DEE414AF28F473D2227DC3D356EC4A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F947D617FDB1552A850CE329488AF9B4 /* Harold.modulemap */,
+				6E550F55342769EBBC4667E36DF9EAC9 /* Harold.xcconfig */,
+				706D1A4B01788BDE1521603010024208 /* Harold-dummy.m */,
+				9F2FB64E1E781B6C8E1BE19375769326 /* Harold-prefix.pch */,
+				7934683E0856869CBCE26C9DCDDC0D68 /* Harold-umbrella.h */,
+				6219FCF669DD1A5703ECB0AEC7F3718C /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Examples/Swift/Pods/Target Support Files/Harold";
+			sourceTree = "<group>";
+		};
+		95D6A9F20AF9DDBB51E7562091673E49 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9A19ACA25C8CA7F90BE6FC6C7C1454B0 /* Harold */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		97CDCB5A0A30A5875BD2674D78A4B922 /* CocoaAsyncSocket */ = {
@@ -214,7 +239,7 @@
 				8F9509718CFCC3D81230AA7CF02478B7 /* GCDAsyncSocket.m */,
 				30CCCF41576100268BFA48C3EED9517C /* GCDAsyncUdpSocket.h */,
 				9235AEFD042C8D96AF4B4AA61E18C420 /* GCDAsyncUdpSocket.m */,
-				57B648335473190C3B0747F8DB761F76 /* Support Files */,
+				ABF5ACA2D50E24517E38E82BF1F34D9B /* Support Files */,
 			);
 			name = CocoaAsyncSocket;
 			path = CocoaAsyncSocket;
@@ -228,22 +253,30 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		A18433D6C3FE6AB66D4E519731F2B090 /* Pods-HaroldSender */ = {
+		9A19ACA25C8CA7F90BE6FC6C7C1454B0 /* Harold */ = {
 			isa = PBXGroup;
 			children = (
-				B60B13CB1FAF321CF76531326DACD197 /* Info.plist */,
-				BE791913DDCE2EDB77D655031074F334 /* Pods-HaroldSender.modulemap */,
-				C6BF608B0BCACE517E004EAD53D52D5F /* Pods-HaroldSender-acknowledgements.markdown */,
-				BAC5AEC5DF2A8FECA6B5FEF3739D8078 /* Pods-HaroldSender-acknowledgements.plist */,
-				69355A1A7DA97F1A1F2105D29D00181A /* Pods-HaroldSender-dummy.m */,
-				4DEB0EE90767E86B29026267F406CF86 /* Pods-HaroldSender-frameworks.sh */,
-				5D29B0889247FF56753BD2E38C70EAFA /* Pods-HaroldSender-resources.sh */,
-				CCC8541E4A85CAEBD00A67D7CD8F76FC /* Pods-HaroldSender-umbrella.h */,
-				4D93AEE3C2D9392AEA4B33483C8D610B /* Pods-HaroldSender.debug.xcconfig */,
-				0120F7A8F470339C7165BC6AC9C68161 /* Pods-HaroldSender.release.xcconfig */,
+				028BBAA918F72B9842F0FFC1C706D5CD /* Harold.swift */,
+				EFB0490DAC8AF4102541AABA2CFF6758 /* Networking.swift */,
+				087CBBD4EA8714024690A149059CC836 /* Pod */,
+				81DEE414AF28F473D2227DC3D356EC4A /* Support Files */,
 			);
-			name = "Pods-HaroldSender";
-			path = "Target Support Files/Pods-HaroldSender";
+			name = Harold;
+			path = ../../..;
+			sourceTree = "<group>";
+		};
+		ABF5ACA2D50E24517E38E82BF1F34D9B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				330814B3C2DDA66B814375BBD80FEBE6 /* CocoaAsyncSocket.modulemap */,
+				0469EC467755C444DC684A90770240B4 /* CocoaAsyncSocket.xcconfig */,
+				A150BFDFB60879728DB1958A240D4383 /* CocoaAsyncSocket-dummy.m */,
+				E6C5919021AC2DC8D29CC8C89A8E20F1 /* CocoaAsyncSocket-prefix.pch */,
+				AF8C213E138128F7803201DCD578F6D0 /* CocoaAsyncSocket-umbrella.h */,
+				26446C934AC5390532FB7A431359FC7A /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CocoaAsyncSocket";
 			sourceTree = "<group>";
 		};
 		ACA2DC8B6BD165CF5CE13ECB224C7D97 /* Products */ = {
@@ -260,55 +293,28 @@
 		BFF5EAC34A1B0A11E061769C65F84D7F /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				D8BAE30D114AE02AA49FEC01554F7A40 /* Pods-HaroldReceiver */,
-				A18433D6C3FE6AB66D4E519731F2B090 /* Pods-HaroldSender */,
+				2130BB5BF3DC0A13DE43ECBACE0C8DBC /* Pods-HaroldReceiver */,
+				C200C5B6C903081ECCC6BF9839D746F1 /* Pods-HaroldSender */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		C47B9C55DD05308D8DB1E2D652D4E880 /* Development Pods */ = {
+		C200C5B6C903081ECCC6BF9839D746F1 /* Pods-HaroldSender */ = {
 			isa = PBXGroup;
 			children = (
-				F2515A312BF2F0BDF06B268E0057377E /* Harold */,
+				CE60671400A31A98009D374A743B8ECE /* Info.plist */,
+				E02E48CADB023978FF0B05435C7F22F0 /* Pods-HaroldSender.modulemap */,
+				02F71D45E247D97315F9A1D7F8F5613C /* Pods-HaroldSender-acknowledgements.markdown */,
+				BAD2177EF86E8E0FF3A193263285AD44 /* Pods-HaroldSender-acknowledgements.plist */,
+				5DFCDED7B29E6767742DA4DCAB8213DA /* Pods-HaroldSender-dummy.m */,
+				4CF06B7B01C7A7427784F46A3536AA3E /* Pods-HaroldSender-frameworks.sh */,
+				6F51E7FB4EEC2C2123106FB7EB2BCBEB /* Pods-HaroldSender-resources.sh */,
+				3144AD35E921C2F082BE1F6BC5602510 /* Pods-HaroldSender-umbrella.h */,
+				873691733D701782B340E4A9B75377BE /* Pods-HaroldSender.debug.xcconfig */,
+				49AB81D3890885A48F5384CB59C44A56 /* Pods-HaroldSender.release.xcconfig */,
 			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		C8C6C2F37438EAF8EAF7BA10D5675203 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				8D5B6293B613C6FA36C1AF52228FD700 /* Harold.swift */,
-				F3380B06D21D36D49A2A519974AA4B30 /* Networking.swift */,
-			);
-			name = Classes;
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		CBFB6BAC591851CFFB5D17154B41CF6D /* Swift */ = {
-			isa = PBXGroup;
-			children = (
-				C8C6C2F37438EAF8EAF7BA10D5675203 /* Classes */,
-			);
-			name = Swift;
-			path = Swift;
-			sourceTree = "<group>";
-		};
-		D8BAE30D114AE02AA49FEC01554F7A40 /* Pods-HaroldReceiver */ = {
-			isa = PBXGroup;
-			children = (
-				40E84BD95F4CE1C03C18176CA4F38C4A /* Info.plist */,
-				897CAFE86ACC3F3C40DA602E598D9614 /* Pods-HaroldReceiver.modulemap */,
-				60EA3B6F06C10D9516DB73CF811A94EA /* Pods-HaroldReceiver-acknowledgements.markdown */,
-				453C28731069D1BC1F966610CCFA1B62 /* Pods-HaroldReceiver-acknowledgements.plist */,
-				4EAC2F8EA1A77A09EA331AD78BC2FFFC /* Pods-HaroldReceiver-dummy.m */,
-				916E4818BC1C7C90A228A4D6196AEE20 /* Pods-HaroldReceiver-frameworks.sh */,
-				3E3A08156725FFBEB77559972642CE40 /* Pods-HaroldReceiver-resources.sh */,
-				26DD28AFA24A0EA92E96CA5D91AA45E1 /* Pods-HaroldReceiver-umbrella.h */,
-				B3E0868595D607768DA740F75AF1919D /* Pods-HaroldReceiver.debug.xcconfig */,
-				ED76B6BF5B15CD7CE574BE6BFF17054F /* Pods-HaroldReceiver.release.xcconfig */,
-			);
-			name = "Pods-HaroldReceiver";
-			path = "Target Support Files/Pods-HaroldReceiver";
+			name = "Pods-HaroldSender";
+			path = "Target Support Files/Pods-HaroldSender";
 			sourceTree = "<group>";
 		};
 		E57D8BB42B7367E2EA1AB4BAF61E5D44 /* Frameworks */ = {
@@ -318,16 +324,6 @@
 				2B933D4B764323E14C9F306E59BA9E9E /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		F2515A312BF2F0BDF06B268E0057377E /* Harold */ = {
-			isa = PBXGroup;
-			children = (
-				115112443D4350736356B045A854D106 /* Support Files */,
-				CBFB6BAC591851CFFB5D17154B41CF6D /* Swift */,
-			);
-			name = Harold;
-			path = ../../..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -412,7 +408,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 84ACF43B5F7734226CBFA646A7DC3205 /* Build configuration list for PBXNativeTarget "Harold" */;
 			buildPhases = (
-				83DEEA6E07A819929A569AAF447D1BBD /* Sources */,
+				C63A0BE371131F4F3F11361D6AE10AC6 /* Sources */,
 				757C85AEC145A747FE4AA96A7C90F0BE /* Frameworks */,
 				548CD9FA0F09B51880AC1BCA5BA08DD6 /* Headers */,
 			);
@@ -449,8 +445,8 @@
 		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0700;
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -481,21 +477,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		83DEEA6E07A819929A569AAF447D1BBD /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				20AC6A6846B52F82CF18DCFEFFB10EF0 /* Harold-dummy.m in Sources */,
-				DECA51A46131C053EA97C5E4653CE99D /* Harold.swift in Sources */,
-				E15C49A7253F2F3A092ADD79DDD17A3B /* Networking.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		B98887575E81D08726E462D3FB40FE12 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				9EB8C23465DFF46BF5D9BF1AD059E420 /* Pods-HaroldReceiver-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C63A0BE371131F4F3F11361D6AE10AC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E17164BDE2B2F5EE52927592479A28A /* Harold-dummy.m in Sources */,
+				C8F586AB53723EF70E473F14F6302E16 /* Harold.swift in Sources */,
+				9D3979E2919988FC7F4468F276DE2A85 /* Networking.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -545,388 +541,398 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		2FA3F01D4B772AD84E3D65FE9E0997E4 /* Release */ = {
+		129111BCF7322F2D2A06723C5C6F8DBD /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0120F7A8F470339C7165BC6AC9C68161 /* Pods-HaroldSender.release.xcconfig */;
+			baseConfigurationReference = 6E550F55342769EBBC4667E36DF9EAC9 /* Harold.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Harold/Harold-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Harold/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Harold/Harold.modulemap";
+				PRODUCT_MODULE_NAME = Harold;
+				PRODUCT_NAME = Harold;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		204B57B8D9F979A7C463D70E6FD1D71C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 873691733D701782B340E4A9B75377BE /* Pods-HaroldSender.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-HaroldSender/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-HaroldSender/Pods-HaroldSender.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_HaroldSender;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		4430DF2DE6EA652BA29A669106448BB8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8C46D6CF7EC9B468C88BE69DCB6983E3 /* Harold.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Harold/Harold-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Harold/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Harold/Harold.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = Harold;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		788E0BF9008BDE561B63CCD100C0D529 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = AEE3A3E21C4B978FE0BCEB9613DABBF6 /* CocoaAsyncSocket.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/CocoaAsyncSocket/CocoaAsyncSocket-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CocoaAsyncSocket/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/CocoaAsyncSocket/CocoaAsyncSocket.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = CocoaAsyncSocket;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		7AD905CDE38C971031076434035B3AA0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8C46D6CF7EC9B468C88BE69DCB6983E3 /* Harold.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Harold/Harold-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Harold/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Harold/Harold.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = Harold;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		7AEA80A9C79939CF720C7B48AB4986E4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = AEE3A3E21C4B978FE0BCEB9613DABBF6 /* CocoaAsyncSocket.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/CocoaAsyncSocket/CocoaAsyncSocket-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CocoaAsyncSocket/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/CocoaAsyncSocket/CocoaAsyncSocket.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = CocoaAsyncSocket;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		899DD341469BB45C9508B03D7D270279 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = ED76B6BF5B15CD7CE574BE6BFF17054F /* Pods-HaroldReceiver.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-HaroldReceiver/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-HaroldReceiver/Pods-HaroldReceiver.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_HaroldReceiver;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		9BFC9E4A7AAD7A607ACE06D95A401A5A /* Debug */ = {
+		553022A828EE1991F07D2D73F565AEF8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
 				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"POD_CONFIGURATION_DEBUG=1",
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		A14E5839D2ECADD0401B7ACCA354731B /* Debug */ = {
+		58CE816B060A41D32CEC095441D0E3E0 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4D93AEE3C2D9392AEA4B33483C8D610B /* Pods-HaroldSender.debug.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-HaroldSender/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-HaroldSender/Pods-HaroldSender.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_HaroldSender;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
 			};
-			name = Debug;
+			name = Release;
 		};
-		BDB94C223603831317701FCBF81968DF /* Debug */ = {
+		70ED2BAF4D4F98F6708B167C816AE50A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B3E0868595D607768DA740F75AF1919D /* Pods-HaroldReceiver.debug.xcconfig */;
+			baseConfigurationReference = C610E2F88F467A77D119BFB956C486BC /* Pods-HaroldReceiver.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-HaroldReceiver/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-HaroldReceiver/Pods-HaroldReceiver.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_HaroldReceiver;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7617C675E680645FE9100D6ED19664E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0469EC467755C444DC684A90770240B4 /* CocoaAsyncSocket.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CocoaAsyncSocket/CocoaAsyncSocket-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CocoaAsyncSocket/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CocoaAsyncSocket/CocoaAsyncSocket.modulemap";
+				PRODUCT_MODULE_NAME = CocoaAsyncSocket;
+				PRODUCT_NAME = CocoaAsyncSocket;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		C03B8870130C98D1B02B59D003687524 /* Release */ = {
+		ABFAA64C9C8BD112422E9E5CF74B35BF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 664B95683209EF712B9CAD3A6958D0EF /* Pods-HaroldReceiver.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_REQUIRED = NO;
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HaroldReceiver/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HaroldReceiver/Pods-HaroldReceiver.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B2571C778AD55841D6DB72DA31797DD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E550F55342769EBBC4667E36DF9EAC9 /* Harold.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Harold/Harold-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Harold/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Harold/Harold.modulemap";
+				PRODUCT_MODULE_NAME = Harold;
+				PRODUCT_NAME = Harold;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EAFD3AB775B84159C01319E8B58BFBE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49AB81D3890885A48F5384CB59C44A56 /* Pods-HaroldSender.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HaroldSender/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HaroldSender/Pods-HaroldSender.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EDBB8A444E15ACA7CBC1A3BA244B3FFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0469EC467755C444DC684A90770240B4 /* CocoaAsyncSocket.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CocoaAsyncSocket/CocoaAsyncSocket-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CocoaAsyncSocket/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CocoaAsyncSocket/CocoaAsyncSocket.modulemap";
+				PRODUCT_MODULE_NAME = CocoaAsyncSocket;
+				PRODUCT_NAME = CocoaAsyncSocket;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -936,8 +942,8 @@
 		00F4C53381225A2A90211281DE8BD1D7 /* Build configuration list for PBXNativeTarget "Pods-HaroldSender" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A14E5839D2ECADD0401B7ACCA354731B /* Debug */,
-				2FA3F01D4B772AD84E3D65FE9E0997E4 /* Release */,
+				204B57B8D9F979A7C463D70E6FD1D71C /* Debug */,
+				EAFD3AB775B84159C01319E8B58BFBE7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -945,8 +951,8 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9BFC9E4A7AAD7A607ACE06D95A401A5A /* Debug */,
-				C03B8870130C98D1B02B59D003687524 /* Release */,
+				553022A828EE1991F07D2D73F565AEF8 /* Debug */,
+				58CE816B060A41D32CEC095441D0E3E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -954,8 +960,8 @@
 		84ACF43B5F7734226CBFA646A7DC3205 /* Build configuration list for PBXNativeTarget "Harold" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7AD905CDE38C971031076434035B3AA0 /* Debug */,
-				4430DF2DE6EA652BA29A669106448BB8 /* Release */,
+				B2571C778AD55841D6DB72DA31797DD2 /* Debug */,
+				129111BCF7322F2D2A06723C5C6F8DBD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -963,8 +969,8 @@
 		BF48C91208F0CF320F1CC710E91CCDD2 /* Build configuration list for PBXNativeTarget "Pods-HaroldReceiver" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BDB94C223603831317701FCBF81968DF /* Debug */,
-				899DD341469BB45C9508B03D7D270279 /* Release */,
+				ABFAA64C9C8BD112422E9E5CF74B35BF /* Debug */,
+				70ED2BAF4D4F98F6708B167C816AE50A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -972,8 +978,8 @@
 		F2A03B912F777B2BFB05E7B9E903B15F /* Build configuration list for PBXNativeTarget "CocoaAsyncSocket" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				788E0BF9008BDE561B63CCD100C0D529 /* Debug */,
-				7AEA80A9C79939CF720C7B48AB4986E4 /* Release */,
+				7617C675E680645FE9100D6ED19664E7 /* Debug */,
+				EDBB8A444E15ACA7CBC1A3BA244B3FFA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

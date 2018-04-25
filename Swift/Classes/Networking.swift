@@ -18,16 +18,13 @@ extension sockaddr_in {
         return String(format:"%d.%d.%d.%d", b.0, b.1, b.2, b.3)
     }
     
-    init() {
+    init(port: UInt16) {
+        self.init()
         self.sin_len = UInt8(MemoryLayout<sockaddr_in>.size)
         self.sin_family = 0
         self.sin_port = 0
         self.sin_addr = in_addr(s_addr: 0)
         self.sin_zero = (0,0,0,0,0,0,0,0)
-    }
-    
-    init(port: UInt16) {
-        self.init()
         self.sin_family = UInt8(AF_INET)
         self.sin_port = port.bigEndian
     }
