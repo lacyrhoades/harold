@@ -49,6 +49,7 @@ public class Harold: NSObject {
         if listenSocket != nil {
             do {
                 try listenSocket?.beginReceiving()
+                self.log("Recycling old socket")
                 return
             } catch {
                 self.log("Issue with resuming on existing socket")
@@ -56,7 +57,8 @@ public class Harold: NSObject {
             }
         }
         
-        self.listenSocket = GCDAsyncUdpSocket(delegate: self, delegateQueue: DispatchQueue.global(qos: .utility))
+        self.listenSocket = GCDAsyncUdpSocket(delegate: self, delegateQueue: DispatchQueue.main)
+        self.log("Created new UDP socket")
         
         listenSocket?.setIPv6Enabled(false)
         listenSocket?.setIPv4Enabled(true)
@@ -100,7 +102,7 @@ public class Harold: NSObject {
     public func setupBroadcast() {
         self.broadcastSocket = GCDAsyncUdpSocket(
             delegate: self,
-            delegateQueue: DispatchQueue.global(qos: .utility)
+            delegateQueue: DispatchQueue.main
         )
         broadcastSocket?.setIPv6Enabled(false)
         broadcastSocket?.setIPv4Enabled(true)
@@ -139,24 +141,24 @@ public class Harold: NSObject {
 
 extension Harold: GCDAsyncUdpSocketDelegate {
     public func udpSocket(_ sock: GCDAsyncUdpSocket, didConnectToAddress address: Data) {
-        // self.log("Socket did connect")
+        self.log("Socket did connect")
     }
     
     public func udpSocket(_ sock: GCDAsyncUdpSocket, didNotConnect error: Error?) {
-        // self.log("Socket did not connect")
-        // self.log(error == nil ? "No error message" : error!.localizedDescription)
+        self.log("Socket did not connect")
+        self.log(error == nil ? "No error message" : error!.localizedDescription)
         if error != nil {
             self.log(error!.localizedDescription)
         }
     }
     
     public func udpSocket(_ sock: GCDAsyncUdpSocket, didSendDataWithTag tag: Int) {
-        // self.log("Socket did send data")
+        self.log("Socket did send data")
     }
     
     public func udpSocket(_ sock: GCDAsyncUdpSocket, didNotSendDataWithTag tag: Int, dueToError error: Error?) {
-        // self.log("Socket did not send data")
-        // self.log(error == nil ? "No error message" : error!.localizedDescription)
+        self.log("Socket did not send data")
+        self.log(error == nil ? "No error message" : error!.localizedDescription)
         if error != nil {
             self.log(error!.localizedDescription)
         }
@@ -166,7 +168,7 @@ extension Harold: GCDAsyncUdpSocketDelegate {
         var host: NSString?
         var port: UInt16 = 0
         
-        // self.log("Socket did recieve")
+        self.log("Socket did recieve")
         
         GCDAsyncUdpSocket.getHost(&host, port: &port, fromAddress: address)
         
