@@ -67,18 +67,7 @@ public class Harold: NSObject {
             var address = sockaddr_in(port: self.listenPort).copyAsSockAddr()
             let data = Data(bytes: &address, count: Int(address.sa_len))
             
-            /*
-             This does not seem to work
-             Would be nice so that two apps could both listen on the same port I think? ...
-             if let fd = listenSocket?.socketFD() {
-             print("setting up socket sharing")
-             var trueVal: Int = 1
-             setsockopt(fd, SOL_SOCKET, SO_REUSEADDR, &trueVal, socklen_t(MemoryLayout<Int>.size));
-             setsockopt(fd, SOL_SOCKET, SO_REUSEPORT, &trueVal, socklen_t(MemoryLayout<Int>.size));
-             } else {
-             print("can't set up socket sharing")
-             }
-             */
+            try listenSocket?.enableReusePort(true)
             
             try listenSocket?.bind(toAddress: data)
             try listenSocket?.enableBroadcast(true)
