@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Harold'
-  s.version          = '0.3'
+  s.version          = '0.3.1'
   s.summary          = 'Simple local network discoverability layer for Swift and Node.js'
 
 # This description is used to generate tags and improve search results.
