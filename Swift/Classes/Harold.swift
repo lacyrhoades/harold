@@ -175,10 +175,6 @@ extension Harold: GCDAsyncUdpSocketDelegate {
     
     func log(_ message: Any) {
         let message = String(self.listenPort).appending(" - ").appending(String(describing: message))
-        if let delegate = self.loggingDelegate {
-            delegate.logFromHarold(message)
-        } else {
-            print(message)
-        }
+        self.loggingDelegate?.logFromHarold(message)
     }
 }
